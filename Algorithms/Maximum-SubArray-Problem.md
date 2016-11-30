@@ -21,13 +21,12 @@ def max_subarray(A):
 
 ### Variants
 
-**Question1**
+1. Problem that does not allow zero length subarrays
 
-Problem that does not allow zero length subarrays
+2. You are given a binary array. In a single operation, you can choose two indices L and R such that 1 ≤ L ≤ R ≤ N and flip the elements. By flipping, we mean change character `0` to `1` and vice-versa. Your aim is to perform ATMOST one operation such that in final string number of `1`s is maximized. If you don’t want to perform the operation, return an empty array. Else, return an array consisting of two elements denoting L and R.
 
-**Question2**
+3. Maximum circular subarray sum \([Read more](http://www.geeksforgeeks.org/maximum-contiguous-circular-sum/)\)
 
-You are given a binary array. In a single operation, you can choose two indices L and R such that 1 ≤ L ≤ R ≤ N and flip the elements. By flipping, we mean change character `0` to `1` and vice-versa. Your aim is to perform ATMOST one operation such that in final string number of `1`s is maximized. If you don’t want to perform the operation, return an empty array. Else, return an array consisting of two elements denoting L and R.
 
 ### Source
 

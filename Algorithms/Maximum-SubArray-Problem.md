@@ -27,6 +27,7 @@ def max_subarray(A):
 
 3. Maximum circular subarray sum \([Read more](http://www.geeksforgeeks.org/maximum-contiguous-circular-sum/)\)
 
+4. Maximum difference between sum of two continues non overlapping sub arrays \([Read more](http://www.geeksforgeeks.org/maximum-absolute-difference-between-sum-of-two-contiguous-sub-arrays/)\) 
 
 ### Source
 

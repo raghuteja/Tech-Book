@@ -4,6 +4,10 @@
 
 2. Using Hash map
 
+3. Finding an element : XOR
+
+4. 
+
 
 
 

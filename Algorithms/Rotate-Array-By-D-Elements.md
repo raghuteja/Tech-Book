@@ -1,10 +1,12 @@
-# Rotate Array of size n by d elements \(Juggling Algorithm\)
+# Rotate Array of size n by d elements
 
 ### Problem
 
 Rotate an array of size n by d elements
 
 ### Algorithm
+
+#### Juggling Algorithm
 
 In this method, the array is divided into M cycles, where M = GCD\(n, d\), and rotate the corresponding elements in each cycle
 
@@ -16,10 +18,18 @@ Because the inner loop increments in steps of d, and stops when it gets back to 
 
 The inner loop increments in steps of d, which is a multiple of GCD\(n, d\). Thus by the time we start the i-th cycle, for a hit we'd need \(k\*GCD + z\) % n == i \(for 0 &lt;= z &lt; i\). This leads to \(kGCD\) % n == \(i - z\). This clearly has no solutions.
 
+#### Reversal Algorithm
+
+For arr\[\] = \[1, 2, 3, 4, 5, 6, 7\], d =2 and n = 7  
+A = \[1, 2\] and B = \[3, 4, 5, 6, 7\]  
+Reverse A, we get ArB = \[2, 1, 3, 4, 5, 6, 7\]  
+Reverse B, we get ArBr = \[2, 1, 7, 6, 5, 4, 3\]  
+Reverse all, we get \(ArBr\)r = \[3, 4, 5, 6, 7, 1, 2\]
+
 ### Implementation
 
 ```c
-/*Function to left rotate arr[] of siz n by d*/
+/*Juggling Algorithm : Function to left rotate arr[] of siz n by d*/
 void leftRotate(int arr[], int d, int n)
 {
   int i, j, k, temp;

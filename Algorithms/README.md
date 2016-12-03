@@ -17,8 +17,8 @@
    3. Last Occurrence  
    4. Floor of given element  
    5. Ceil of given element
-
-3. 
+3. Interpolation search
+4. 
 
 
 

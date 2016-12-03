@@ -26,6 +26,8 @@ Reverse A, we get ArB = \[2, 1, 3, 4, 5, 6, 7\]
 Reverse B, we get ArBr = \[2, 1, 7, 6, 5, 4, 3\]  
 Reverse all, we get \(ArBr\)r = \[3, 4, 5, 6, 7, 1, 2\]
 
+#### Block swap algorithm
+
 ### Implementation
 
 ```c

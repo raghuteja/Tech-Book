@@ -5,13 +5,12 @@
 3. Finding an element : XOR
 4. Dynamic Programming
 5. Minimum number of comparisons : Tournament Method
-6. 
+6. Traverse array from right hand side
 
 
 ### ToDo
 
 1. Implementation of Heap
-
 
 
 

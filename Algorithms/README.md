@@ -8,6 +8,10 @@
 
 4. Dynamic Programming
 
+5. Minimum number of comparisons : Tournament Method
+
+6. 
+
 
 
 

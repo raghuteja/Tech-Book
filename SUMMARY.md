@@ -15,7 +15,6 @@
 
 * [Networks](/Networks/README.md)
   * [ETE - How HTTP works?](/Networks/ETE-How-HTTP-Works.md)
-  * [ReadMe](/Networks/README.md)
 
 * [To Read](to-read.md)
 

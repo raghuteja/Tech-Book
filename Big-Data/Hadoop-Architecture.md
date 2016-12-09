@@ -22,30 +22,3 @@ A cluster is a collection of racks
 1. Reliability through replication
 2. Designed to handle large files (No random access)
 3. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

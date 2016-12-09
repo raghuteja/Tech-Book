@@ -12,6 +12,40 @@ A cluster is a collection of racks
 1. HDFS
 2. IBM Spectrum scale
 
-###### MapReduce engine
+###### MapReduce engine (v1)
 1. Framework for performing calculations on the data in the file system
 2. Has builtin resource manager and scheduler
+
+
+#### HDFS
+
+1. Reliability through replication
+2. Designed to handle large files (No random access)
+3. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

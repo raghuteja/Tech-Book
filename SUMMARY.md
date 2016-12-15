@@ -15,6 +15,7 @@
 * [Networks](/Networks/README.md)
   * [ETE - How HTTP works?](/Networks/ETE-How-HTTP-Works.md)
 * [General](/General/README.md)
+  * [Email Authentications](/General/Email-Authentications.md)
 * [To Read](to-read.md)
 
 

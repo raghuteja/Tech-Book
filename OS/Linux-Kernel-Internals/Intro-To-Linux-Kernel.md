@@ -1,4 +1,4 @@
-# How Process Work
+# Intro to Linux Kernel
 
 Application in system communicate via system calls, When an application executes a system call, we say that the kernel is executing on behalf of the application. Furthermore, the application is said to be executing a system call in kernel-space, and the kernel is running in **process context**.
 

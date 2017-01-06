@@ -13,6 +13,7 @@
   * [Maximum subarray problem](Algorithms/Maximum-SubArray-Problem.md)
   * [Rotate array by d elements](Algorithms/Rotate-Array-By-D-Elements.md)
   * [Search Element in sorted rotated array](Algorithms/Search-Element-In-Sorted-Rotated-Array.md)
+  * [Pattern Matching](Algorithms/Pattern-Matching.md)
 * [Networks](Networks/README.md)
   * [ETE - How HTTP works?](Networks/ETE-How-HTTP-Works.md)
 * [OS](/OS/README.md)

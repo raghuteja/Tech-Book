@@ -6,7 +6,7 @@
   * [URL Shortening Service](Design/url-shortening-service.md)
   * [Scalability](Design/scalability.md)
   * [Git](Design/git.md)
-  * How-LoadBalancer-Works.md
+  * [How-LoadBalancer-Works.md](#)
 * [Data Structures](Data-Structures/README.md)
 * [Algorithms](Algorithms/README.md)
   * [Majority Element](Algorithms/Majority-Element.md)

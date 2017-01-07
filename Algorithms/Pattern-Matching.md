@@ -16,7 +16,8 @@ If we calculate the number H (the hash value) for the pattern and the same numbe
 A problem arises when m and B are big enough and the number H becomes too large to fit into the standard integer types. To overcome this, instead of the number H itself we use its remainder when divided by some other number M. To get the remainder we do not have to calculate H.
 
 For the sub string starting from i
-Hi = ( Hi – 1 – s[i- 1] * Bm - 1 ) * B + s[i + m - 1]
+
+H{% sub %}i{% endsub %} = ( Hi – 1 – s[i- 1] * Bm - 1 ) * B + s[i + m - 1]
 
 ### Implementation
 

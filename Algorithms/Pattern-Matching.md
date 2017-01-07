@@ -17,7 +17,7 @@ A problem arises when m and B are big enough and the number H becomes too large 
 
 For the sub string starting from i
 
-H{% sub %}i{% endsub %} = ( Hi – 1 – s[i- 1] * Bm - 1 ) * B + s[i + m - 1]
+Hi = ( Hi – 1 – s[i- 1] * B {% sup %} m - 1 {% endsup %} ) * B + s[i + m - 1]
 
 ### Implementation
 

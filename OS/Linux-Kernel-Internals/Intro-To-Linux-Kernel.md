@@ -1,5 +1,15 @@
 # Intro to Linux Kernel
 
+####Tasks Performed By Kernel
+
+1. Process Scheduling
+2. Memory Management (RAM and Swap Space)
+3. Provision of a file system
+4. Creation and Termination of a Process
+5. Access to devices (Keyboard, Mouse etc...)
+6. Networking
+7. Provision of a systemcall API
+
 Application in system communicate via system calls, When an application executes a system call, we say that the kernel is executing on behalf of the application. Furthermore, the application is said to be executing a system call in kernel-space, and the kernel is running in **process context**.
 
 kernel also manages the system's hardware through interrupts. When hardware wants to communicate with the system, it issues an interrupt that literally interrupts the processor, which in turn interrupts the kernel. A number identifies interrupts and the kernel uses this number to execute a specific interrupt handler to process and respond to the interrupt. (Ex: Keyboard)

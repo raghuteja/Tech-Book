@@ -12,6 +12,12 @@ str.length();
 str.push_back(c);
 ```
 
+**Convert string to int**
+
+```
+stoi(string);
+```
+
 **Convert int to string**
 
 ```

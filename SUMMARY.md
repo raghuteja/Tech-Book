@@ -16,6 +16,7 @@
     - [Introduction](Data-Engineering/Kafka/Introduction.md)
 - [Data-Stores](./Data-Stores/README.md)
   - [Columnar-DB](Data-Stores/Columnar-DB.md)
+  - [Sharding](Data-Stores/Sharding.md)
 - [Data-Structures](./Data-Structures/README.md)
   - [Stack](Data-Structures/Stack.md)
 - [Design](./Design/README.md)

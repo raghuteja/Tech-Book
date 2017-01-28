@@ -1,27 +1,70 @@
 # Summary
 
-* [Introduction](README.md)
-* [Design](Design/README.md)
-  * [SSL - Encryption](Design/SSL-Encryption.md)
-  * [URL Shortening Service](Design/url-shortening-service.md)
-  * [Scalability](Design/scalability.md)
-  * [Git](Design/git.md)
-  * How-LoadBalancer-Works.md
-* [Data Structures](Data-Structures/README.md)
-* [Algorithms](Algorithms/README.md)
-  * [Majority Element](Algorithms/Majority-Element.md)
-  * [Maximum subarray problem](Algorithms/Maximum-SubArray-Problem.md)
-  * [Rotate array by d elements](Algorithms/Rotate-Array-By-D-Elements.md)
-  * [Search Element in sorted rotated array](Algorithms/Search-Element-In-Sorted-Rotated-Array.md)
-  * [Pattern Matching](Algorithms/Pattern-Matching.md)
-* [Networks](Networks/README.md)
-  * [ETE - How HTTP works?](Networks/ETE-How-HTTP-Works.md)
-* [OS](/OS/README.md)
-  * [Intro To Linux Kernel](/OS/Linux-Kernel-Internals/Intro-To-Linux-Kernel.md)
-* [General](General/README.md)
-  * [Email Authentications](General/Email-Authentications.md)
-  * [Git SSH Problems](General/Debugging-Git-SSH-Problems.md)
-* [To Read](to-read.md)
-
-
-
+- [README](./README.md)
+- [to-read](./to-read.md)
+- _book
+  - Big-Data
+    - [Hadoop-Architecture](_book/Big-Data/Hadoop-Architecture.md)
+    - [README](_book/Big-Data/README.md)
+  - C++
+    - [README](_book/C++/README.md)
+    - [String](_book/C++/String.md)
+  - Data-Structures
+    - [Stack](_book/Data-Structures/Stack.md)
+  - Design-Patterns
+    - [README](_book/Design-Patterns/README.md)
+  - OS
+    - Linux-Kernel-Internals
+      - [README](_book/OS/Linux-Kernel-Internals/README.md)
+- Algorithms
+  - [Majority-Element](Algorithms/Majority-Element.md)
+  - [Maximum-SubArray-Problem](Algorithms/Maximum-SubArray-Problem.md)
+  - [Pattern-Matching](Algorithms/Pattern-Matching.md)
+  - [README](Algorithms/README.md)
+  - [Rotate-Array-By-D-Elements](Algorithms/Rotate-Array-By-D-Elements.md)
+  - [Search-Element-In-Sorted-Rotated-Array](Algorithms/Search-Element-In-Sorted-Rotated-Array.md)
+- Big-Data
+  - [Hadoop-Architecture](Big-Data/Hadoop-Architecture.md)
+  - [README](Big-Data/README.md)
+- C++
+  - [README](C++/README.md)
+  - [String](C++/String.md)
+- Data-Engineering
+  - Kafka
+    - [Introduction](Data-Engineering/Kafka/Introduction.md)
+    - [README](Data-Engineering/Kafka/README.md)
+  - [README](Data-Engineering/README.md)
+- Data-Stores
+  - [Columnar-DB](Data-Stores/Columnar-DB.md)
+  - [README](Data-Stores/README.md)
+- Data-Structures
+  - [README](Data-Structures/README.md)
+  - [Stack](Data-Structures/Stack.md)
+- Design
+  - [git](Design/git.md)
+  - [QPS-Monitoring-And-Request-Throttling](Design/QPS-Monitoring-And-Request-Throttling.md)
+  - [README](Design/README.md)
+  - [scalability](Design/scalability.md)
+  - [SSL-Encryption](Design/SSL-Encryption.md)
+  - [url-shortening-service](Design/url-shortening-service.md)
+- Design-Patterns
+  - [README](Design-Patterns/README.md)
+- General
+  - [Debugging-Git-SSH-Problems](General/Debugging-Git-SSH-Problems.md)
+  - [Email-Authentications](General/Email-Authentications.md)
+  - [README](General/README.md)
+- Networks
+  - [ETE-How-HTTP-Works](Networks/ETE-How-HTTP-Works.md)
+  - [Network-Interfaces](Networks/Network-Interfaces.md)
+  - [README](Networks/README.md)
+- node_modules
+  - gitbook-plugin-collapsible-menu
+    - [README](node_modules/gitbook-plugin-collapsible-menu/README.md)
+  - gitbook-plugin-superscript
+    - [README](node_modules/gitbook-plugin-superscript/README.md)
+- OS
+  - [Atomic-Operation](OS/Atomic-Operation.md)
+  - Linux-Kernel-Internals
+    - [Intro-To-Linux-Kernel](OS/Linux-Kernel-Internals/Intro-To-Linux-Kernel.md)
+    - [README](OS/Linux-Kernel-Internals/README.md)
+  - [README](OS/README.md)

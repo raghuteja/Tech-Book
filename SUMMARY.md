@@ -1,51 +1,37 @@
 # Summary
 
-- [README](./README.md)
 - [To-Read](./To-Read.md)
-- Algorithms
+- [Algorithms](./Algorithms/README.md)
   - [Majority-Element](Algorithms/Majority-Element.md)
   - [Maximum-SubArray-Problem](Algorithms/Maximum-SubArray-Problem.md)
   - [Pattern-Matching](Algorithms/Pattern-Matching.md)
-  - [README](Algorithms/README.md)
   - [Rotate-Array-By-D-Elements](Algorithms/Rotate-Array-By-D-Elements.md)
   - [Search-Element-In-Sorted-Rotated-Array](Algorithms/Search-Element-In-Sorted-Rotated-Array.md)
-- Big-Data
+- [Big-Data](./Big-Data/README.md)
   - [Hadoop-Architecture](Big-Data/Hadoop-Architecture.md)
-  - [README](Big-Data/README.md)
-- C++
-  - [README](C++/README.md)
+- [C++](./C++/README.md)
   - [String](C++/String.md)
-- Data-Engineering
-  - Kafka
+- [Data-Engineering](./Data-Engineering/README.md)
+  - [Kafka](Data-Engineering/Kafka/README.md)
     - [Introduction](Data-Engineering/Kafka/Introduction.md)
-    - [README](Data-Engineering/Kafka/README.md)
-  - [README](Data-Engineering/README.md)
-- Data-Stores
+- [Data-Stores](./Data-Stores/README.md)
   - [Columnar-DB](Data-Stores/Columnar-DB.md)
-  - [README](Data-Stores/README.md)
-- Data-Structures
-  - [README](Data-Structures/README.md)
+- [Data-Structures](./Data-Structures/README.md)
   - [Stack](Data-Structures/Stack.md)
-- Design
+- [Design](./Design/README.md)
   - [git](Design/git.md)
   - [QPS-Monitoring-And-Request-Throttling](Design/QPS-Monitoring-And-Request-Throttling.md)
-  - [README](Design/README.md)
   - [scalability](Design/scalability.md)
   - [SSL-Encryption](Design/SSL-Encryption.md)
   - [url-shortening-service](Design/url-shortening-service.md)
-- Design-Patterns
-  - [README](Design-Patterns/README.md)
-- General
+- [Design-Patterns](./Design-Patterns/README.md)
+- [General](./General/README.md)
   - [Debugging-Git-SSH-Problems](General/Debugging-Git-SSH-Problems.md)
   - [Email-Authentications](General/Email-Authentications.md)
-  - [README](General/README.md)
-- Networks
+- [Networks](./Networks/README.md)
   - [ETE-How-HTTP-Works](Networks/ETE-How-HTTP-Works.md)
   - [Network-Interfaces](Networks/Network-Interfaces.md)
-  - [README](Networks/README.md)
-- OS
+- [OS](./OS/README.md)
   - [Atomic-Operation](OS/Atomic-Operation.md)
-  - Linux-Kernel-Internals
+  - [Linux-Kernel-Internals](OS/Linux-Kernel-Internals/README.md)
     - [Intro-To-Linux-Kernel](OS/Linux-Kernel-Internals/Intro-To-Linux-Kernel.md)
-    - [README](OS/Linux-Kernel-Internals/README.md)
-  - [README](OS/README.md)

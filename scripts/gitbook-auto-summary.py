@@ -22,11 +22,13 @@ def output_markdown(dire, base_dir, output_file, append, iter_depth=0):
         if os.path.isdir(file_or_path): #is dir
             if mdfile_in_dir(file_or_path):
                 # if there is .md files in the folder, output folder name
-                output_file.write('  ' * iter_depth + '- ' + filename + '\n')
+                output_file.write('  ' * iter_depth + '- [{}]({})\n'.format(write_md_filename(filename, append), os.path.join(os.path.relpath(dire, base_dir), filename, 'README.md')))
                 output_markdown(file_or_path, base_dir, output_file, append,
                                 iter_depth + 1) # iteration
         else: # is file
-            if is_markdown_file(filename):
+            if re.search('.md$|.markdown$', filename):
+                if re.search('README.md', filename):
+                  continue
             # re to find target markdown files, $ for matching end of filename
                 if (filename not in ['SUMMARY.md',
                                      'SUMMARY-GitBook-auto-summary.md']
@@ -60,7 +62,7 @@ def is_markdown_file(filename):
     """
     match = re.search('.md$|.markdown$', filename)
     if not match:
-        return False
+        return filename
     elif len(match.group()) is len('.md'):
         return filename[:-3]
     elif len(match.group()) is len('.markdown'):

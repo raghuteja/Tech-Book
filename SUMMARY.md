@@ -24,6 +24,7 @@
   - [CDN](Design/CDN.md)
   - [Git-Commits-Collision](Design/Git-Commits-Collision.md)
   - [How-Twitter-Works](Design/How-Twitter-Works.md)
+  - [MySQL-Caching](Design/MySQL-Caching.md)
   - [QPS-Monitoring-And-Request-Throttling](Design/QPS-Monitoring-And-Request-Throttling.md)
   - [Scalability](Design/Scalability.md)
   - [SSL-Encryption](Design/SSL-Encryption.md)

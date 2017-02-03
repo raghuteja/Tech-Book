@@ -26,7 +26,7 @@
   - [How-Twitter-Works](Design/How-Twitter-Works.md)
   - [QPS-Monitoring-And-Request-Throttling](Design/QPS-Monitoring-And-Request-Throttling.md)
   - [Scalability](Design/Scalability/README.md)
-    - [MySQL-Caching](Design/Scalability/MySQL-Caching.md)
+    - [MySQL](Design/Scalability/MySQL.md)
   - [SSL-Encryption](Design/SSL-Encryption.md)
   - [URL-Shortening-Service](Design/URL-Shortening-Service.md)
 - [Design-Patterns](./Design-Patterns/README.md)

@@ -10,6 +10,7 @@
 - [Big-Data](./Big-Data/README.md)
   - [Hadoop-Architecture](Big-Data/Hadoop-Architecture.md)
 - [C++](./C++/README.md)
+  - [Priority-Queue](C++/Priority-Queue.md)
   - [String](C++/String.md)
 - [Data-Engineering](./Data-Engineering/README.md)
   - [Kafka](Data-Engineering/Kafka/README.md)

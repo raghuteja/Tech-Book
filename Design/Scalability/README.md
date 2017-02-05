@@ -36,7 +36,7 @@ A cache is a simple key-value store and it should reside as a buffering layer be
 
 #### DB Query Caching
 
-When you do a query to your database, you store the result dataset in cache. A hashed version of your query is the cache key. The next time you run the query, you first check if it is already in the cache. The next time you run the query, you check at first the cache if there is already a result. This pattern has several issues. The main issue is the expiration ([See MySQL Caching](Design/Scalability/MySQL-Caching.md))
+When you do a query to your database, you store the result dataset in cache. A hashed version of your query is the cache key. The next time you run the query, you first check if it is already in the cache. The next time you run the query, you check at first the cache if there is already a result. This pattern has several issues. The main issue is the expiration ([See MySQL Caching](MySQL-Caching.md))
 
 #### Object Caching
 

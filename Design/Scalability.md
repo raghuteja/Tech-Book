@@ -22,6 +22,8 @@ So we should not store any user-related data, like sessions or profile pictures,
 
 That data need to be stored in a centralized data store which is accessible to all your application servers. It can be an external database or persistent cache, like Redis. An external persistent cache will have better performance than an external database.
 
+Then our persistent storage becomes a single point failure, We can overcome this by Keeping another copy of that which will be called replication in technical terms
+
 ### Mysql Scaling
 
 Over the time even if you do that your application gets slower and slower and finally breaks down. The reason is your database. Do master-slave replication \(read from slaves, write to master\) and upgrade your master server by adding RAM.

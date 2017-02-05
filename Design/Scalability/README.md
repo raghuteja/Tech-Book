@@ -4,6 +4,8 @@
 
 It is the ability to increase the capacity of existing hardware or software by adding resources - for example, adding processing power to a server to make it faster.
 
+It is used in virtualization
+
 ### Horizontal Scaling
 
 Servers of a scalable web service are hidden behind a load balancer, which evenly distributes load onto group of application servers which typically called **Load Balancer**.
@@ -57,4 +59,4 @@ To maintain job queue we need a reliable message queueing system \(rabbitmq\)
 ### Credits
 
 * [Scalability Blog](http://www.lecloud.net/tagged/scalability)
-
+* [Scalability Harvard Lecture](https://www.youtube.com/watch?v=-W9F__D3oY4)

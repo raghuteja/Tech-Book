@@ -8,7 +8,7 @@ If application is read heavy, then instead of reading from master we can use sla
 Still its a single point failure for writes
 
 ### Master-Master replication
-
+![Mysql Master-Master](/images/Mysql-Master-Master.png)
 
 ### Caching
 

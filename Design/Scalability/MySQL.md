@@ -4,6 +4,11 @@
 
 **Pros**
 If application is read heavy, then instead of reading from master we can use slaves for reading databases and Insert queries can be executed on master which ultimately propagated to slaves
+**Cons**
+Still its a single point failure for writes
+
+### Master-Master replication
+
 
 ### Caching
 

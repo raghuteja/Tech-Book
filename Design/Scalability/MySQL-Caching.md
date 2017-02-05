@@ -1,4 +1,11 @@
-# MySQL Caching
+# MySQL
+
+### Master-Slave replication
+
+**Pros**
+If application is read heavy, then instead of reading from master we can use slaves for reading databases and Insert queries can be executed on master which ultimately propagated to slaves
+
+### Caching
 
 On a typical MySQL Server in my.cnf there is a variable called `query_cache_type` which takes values `0` or `1` 
 

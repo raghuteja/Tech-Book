@@ -6,7 +6,19 @@ It is the ability to increase the capacity of existing hardware or software by a
 
 ### Horizontal Scaling
 
-Servers of a scalable web service are hidden behind a load balancer, which evenly distributes load onto group of application servers. So we should not store any user-related data, like sessions or profile pictures, on local disc or memory.
+Servers of a scalable web service are hidden behind a load balancer, which evenly distributes load onto group of application servers which typically called **Load Balancer**.
+
+##### How Load Balancer decides which application server to choose?
+
+1. By Load (How busy the server is?)
+2. Round-Robin
+
+##### Problems in horizontal scaling
+ 
+1. A single server can get huge number of heavy requests
+2. Maintaining sessions, When user logged in it might goes to server1 and maintains session in that server, when he does another request he might be landed in other server where the session itself is not there
+
+So we should not store any user-related data, like sessions or profile pictures, on local disc or memory.
 
 That data need to be stored in a centralized data store which is accessible to all your application servers. It can be an external database or persistent cache, like Redis. An external persistent cache will have better performance than an external database.
 

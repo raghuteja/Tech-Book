@@ -10,7 +10,7 @@ In early stages IP address will contain two parts : network number portion and h
 
 #### Classful Network Architecture
 
-| Class | Leading bits | Size of network number bit field | Size of rest bit field | Number of networks | Addresses per network | Start address | End address |
+| Class | Leading bits | Size of n/w number bit field | Size of rest bit field | No.of n/w | Addresses per n/w | Start address | End address |
 | -- | -- | -- | -- | -- | -- | -- | -- |
 | Class A | 0 | 8 | 24 | 2{% sup %}7{% endsup %} | 2{% sup %}24{% endsup %} | 0.0.0.0 | 127.255.255.255 |
 | Class B | 10 | 16 | 16 | 2{% sup %}14{% endsup %} | 2{% sup %}16{% endsup %} | 128.0.0.0 | 191.255.255.255 |

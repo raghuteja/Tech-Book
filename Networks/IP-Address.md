@@ -20,6 +20,8 @@ In early stages IP address will contain two parts : network number portion and h
 
 n/w = network, ND = Not Defined
 
+The number of addresses usable for addressing specific hosts in each network is always 2{% sup %}N{% endsup %} - 2, where N is the number of rest field bits, and the subtraction of 2 adjusts for the use of the all-bits-zero host portion for network address and the all-bits-one host portion as a broadcast address.
+
 ### Casting
 
 #### Unicast

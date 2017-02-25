@@ -1,13 +1,6 @@
 # Summary
 
 - [To-Read](./To-Read.md)
-- [_book](./_book/README.md)
-  - [Design](_book/Design/README.md)
-    - [How-Dropbox-Works](_book/Design/How-Dropbox-Works.md)
-  - [Networks](_book/Networks/README.md)
-    - [01-Introduction](_book/Networks/01-Introduction.md)
-    - [02-Switching](_book/Networks/02-Switching.md)
-    - [NAT](_book/Networks/NAT.md)
 - [Algorithms](./Algorithms/README.md)
   - [Majority-Element](Algorithms/Majority-Element.md)
   - [Maximum-SubArray-Problem](Algorithms/Maximum-SubArray-Problem.md)

@@ -46,7 +46,7 @@ def mdfile_in_dir(dire):
     i: input directory
     o: return Ture if there is .md file; False if not.
     """
-    if re.search('node_modules|scripts', dire):
+    if re.search('node_modules|scripts|_book', dire):
         return False
     for root, dirs, files in os.walk(dire):
         for filename in files:

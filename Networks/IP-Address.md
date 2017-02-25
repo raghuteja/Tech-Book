@@ -20,5 +20,15 @@ In early stages IP address will contain two parts : network number portion and h
 
 n/w = network, ND = Not Defined
 
+### Casting
+
+#### Unicast
+
+Sending packet from one host to one particular host
+
+#### Broadcast
+
+Sending packet from one host to multiple hosts
+
 ### Credits
 1. [Wikipedia](https://en.wikipedia.org/wiki/Classful_network)

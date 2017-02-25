@@ -10,14 +10,15 @@ In early stages IP address will contain two parts : network number portion and h
 
 #### Classful Network Architecture
 
-| Class | Leading bits | Size of network number bit field | Size of rest bit field | Number of networks | Addresses per network | Total addresses in class | Start address | End address |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| Class A | 0 | 8 | 24 | 2{% sup %}7{% endsup %} | 2{% sup %}24{% endsup %} | 2{% sup %}31{% endsup %} | 0.0.0.0 | 127.255.255.255 |
-| Class B | 10 | 16 | 16 | 2{% sup %}14{% endsup %} | 2{% sup %}16{% endsup %} | 2{% sup %}30{% endsup %} | 128.0.0.0 | 191.255.255.255 |
-| Class C | 110 | 24 | 8 | 2{% sup %}21{% endsup %} | 2{% sup %}8{% endsup %} | 2{% sup %}29{% endsup %} | 192.0.0.0 | 223.255.255.255 |
-| Class D (multicast) | 1110 | ND | ND | ND | ND | 2{% sup %}28{% endsup %} | 224.0.0.0 | 239.255.255.255 |
-| Class E (reserved) | 1111 | ND | ND | ND | ND | 2{% sup %}28{% endsup %} | 240.0.0.0 | 255.255.255.255 |
+| Class | Leading bits | Size of network number bit field | Size of rest bit field | Number of networks | Addresses per network | Start address | End address |
+| -- | -- | -- | -- | -- | -- | -- | -- |
+| Class A | 0 | 8 | 24 | 2{% sup %}7{% endsup %} | 2{% sup %}24{% endsup %} | 0.0.0.0 | 127.255.255.255 |
+| Class B | 10 | 16 | 16 | 2{% sup %}14{% endsup %} | 2{% sup %}16{% endsup %} | 128.0.0.0 | 191.255.255.255 |
+| Class C | 110 | 24 | 8 | 2{% sup %}21{% endsup %} | 2{% sup %}8{% endsup %} | 192.0.0.0 | 223.255.255.255 |
+| Class D (multicast) | 1110 | ND | ND | ND | ND | 224.0.0.0 | 239.255.255.255 |
+| Class E (reserved) | 1111 | ND | ND | ND | ND | 240.0.0.0 | 255.255.255.255 |
 
+ND = Not Defined
 
 ### Credits
 1. [Wikipedia](https://en.wikipedia.org/wiki/Classful_network)

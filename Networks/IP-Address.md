@@ -18,7 +18,7 @@ In early stages IP address will contain two parts : network number portion and h
 | Class D (multicast) | 1110 | ND | ND | ND | ND | 224.0.0.0 | 239.255.255.255 |
 | Class E (reserved) | 1111 | ND | ND | ND | ND | 240.0.0.0 | 255.255.255.255 |
 
-ND = Not Defined
+n/w = network, ND = Not Defined
 
 ### Credits
 1. [Wikipedia](https://en.wikipedia.org/wiki/Classful_network)

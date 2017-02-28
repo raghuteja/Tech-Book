@@ -32,5 +32,7 @@ Sending packet from one host to one particular host
 
 Sending packet from one host to multiple hosts
 
+##### Limited Broadcast
+
 ### Credits
 1. [Wikipedia](https://en.wikipedia.org/wiki/Classful_network)

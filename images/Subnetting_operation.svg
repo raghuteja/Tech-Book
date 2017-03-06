@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0" width="394" height="114" viewBox="20 0 394 114">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs>
+    <filter
+       id="filter3879"
+       height="1.43488"
+       y="-0.21743999"
+       width="1.076028"
+       x="-0.038013987">
+      <feGaussianBlur
+         id="feGaussianBlur3881"
+         stdDeviation="2.265"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter3883"
+       height="1.43488"
+       y="-0.21743999"
+       width="1.0508037"
+       x="-0.02540187">
+      <feGaussianBlur
+         id="feGaussianBlur3885"
+         stdDeviation="2.265"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter3887"
+       height="1.43488"
+       y="-0.21743999"
+       width="1.076028"
+       x="-0.038013987">
+      <feGaussianBlur
+         id="feGaussianBlur3889"
+         stdDeviation="2.265"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter3891"
+       height="1.4348803"
+       y="-0.21744017"
+       width="1.1065882"
+       x="-0.053294118">
+      <feGaussianBlur
+         id="feGaussianBlur3893"
+         stdDeviation="2.265"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter3895"
+       height="1.43488"
+       y="-0.21743999"
+       width="1.0970714"
+       x="-0.048535716">
+      <feGaussianBlur
+         id="feGaussianBlur3897"
+         stdDeviation="2.265"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <g id="g2278"
+     transform="translate(-30.952959,2.6342944)">
+    <rect
+       width="143"
+       height="25"
+       x="71.5"
+       y="9.5000029"
+       style="fill:#000000;fill-opacity:0.78431373;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3879)"
+       id="rect3869" />
+    <rect
+       width="214"
+       height="25"
+       x="214.5"
+       y="9.5000029"
+       style="fill:#000000;fill-opacity:0.78431373;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3883)"
+       id="rect3871" />
+    <rect
+       width="143"
+       height="25"
+       x="71.5"
+       y="80.5"
+       style="fill:#000000;fill-opacity:0.78431373;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3887)"
+       id="rect3873" />
+    <rect
+       width="102"
+       height="24.999981"
+       x="326.5"
+       y="80.5"
+       style="fill:#000000;fill-opacity:0.78431373;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3891)"
+       id="rect3875" />
+    <rect
+       width="112"
+       height="25"
+       x="214.5"
+       y="80.5"
+       style="fill:#000000;fill-opacity:0.78431373;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3895)"
+       id="rect3877" />
+    <rect
+       width="143"
+       height="25"
+       x="68.5"
+       y="6.5000024"
+       style="fill:#0028a5;fill-opacity:0.78431373;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3755" />
+    <text
+       x="139.46732"
+       y="24.54233"
+       style="font-size:15.47467136px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text3757"
+       xml:space="preserve"><tspan
+         x="139.46732"
+         y="24.54233"
+         id="tspan3759">Network Prefix</tspan></text>
+    <rect
+       width="214"
+       height="25"
+       x="211.5"
+       y="6.5000024"
+       style="fill:#da8f00;fill-opacity:0.78431373;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3761" />
+    <text
+       style="font-size:15.47467136px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text3763"
+       xml:space="preserve"><tspan
+         x="317.78217"
+         y="24.54233"
+         id="tspan3765">Host Number</tspan></text>
+    <rect
+       width="143"
+       height="25"
+       x="68.5"
+       y="77.5"
+       style="fill:#0028a5;fill-opacity:0.78431373;fill-rule:evenodd;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3773" />
+    <text
+       style="font-size:15.47467136px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text3775"
+       xml:space="preserve"><tspan
+         x="139.46732"
+         y="95.542358"
+         id="tspan3777">Network Prefix</tspan></text>
+    <rect
+       width="102"
+       height="24.999981"
+       x="323.5"
+       y="77.5"
+       style="fill:#da9000;fill-opacity:0.78431373;fill-rule:evenodd;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3779" />
+    <rect
+       width="112"
+       height="25"
+       x="211.5"
+       y="77.5"
+       style="fill:#f40000;fill-opacity:0.78431373;fill-rule:evenodd;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3791" />
+    <text
+       style="font-size:15.47467136px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text3781"
+       xml:space="preserve"><tspan
+         x="373.78217"
+         y="95.542358"
+         id="tspan3783">Host Number</tspan></text>
+    <text
+       style="font-size:15.47467136px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       id="text3793"
+       xml:space="preserve"><tspan
+         x="267.0542"
+         y="95.542358"
+         id="tspan3795">Subnet Number</tspan></text>
+    <g transform="translate(-158.0026,-475.36218)"
+       id="g3845">
+      <g id="g3835">
+        <path
+           d="M 313.5727,41.281915 L 282.4078,62.443262"
+           transform="translate(158,475.36218)"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-opacity:1"
+           id="path3819" />
+        <path
+           d="M 456.78573,537.38523 L 433.9325,543.07778 L 447.65351,523.93594 C 447.42782,529.88992 451.13302,535.31044 456.78573,537.38523 z "
+           style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+           id="path3831" />
+      </g>
+      <g transform="matrix(-1,0,0,1,963.0052,0)"
+         id="g3839">
+        <path
+           d="M 313.5727,41.281915 L 282.4078,62.443262"
+           transform="translate(158,475.36218)"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-opacity:1"
+           id="path3841" />
+        <path
+           d="M 456.78573,537.38523 L 433.9325,543.07778 L 447.65351,523.93594 C 447.42782,529.88992 451.13302,535.31044 456.78573,537.38523 z "
+           style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+           id="path3843" />
+      </g>
+    </g>
+  </g>
+</svg>

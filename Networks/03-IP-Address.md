@@ -86,6 +86,10 @@ If there is more than one match then choose the one with the largest subnet mask
 
 Similar to above example there can be variable length subnetting.
 
+### CIDR (Classless Interdomain Routing)
+
+
+
 ### Credits
 1. [Wikipedia - Classful Network](https://en.wikipedia.org/wiki/Classful_network)
 2. [Wikipedia - Subnetwork](https://en.wikipedia.org/wiki/Subnetwork)

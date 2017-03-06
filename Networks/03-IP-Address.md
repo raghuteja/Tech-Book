@@ -34,5 +34,11 @@ Sending packet from one host to multiple hosts
 
 ##### Limited Broadcast
 
+Broadcasting packet from one host to all other hosts in the same network (IP : 255.255.255.255)
+
+##### Directed Broadcast
+
+Broadcasting packet from one host to all hosts in other network (IP : Last IP of the network)
+
 ### Credits
 1. [Wikipedia](https://en.wikipedia.org/wiki/Classful_network)

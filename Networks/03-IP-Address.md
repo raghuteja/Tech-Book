@@ -40,5 +40,52 @@ Broadcasting packet from one host to all other hosts in the same network (IP : 2
 
 Broadcasting packet from one host to all hosts in other network (IP : Last IP of the network)
 
+### Subnetwork
+
+A subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting.
+
+![](/images/Subnetting_operation.svg)
+
+##### Example subnet
+
+Class C Network (200.1.2.0)
+Suppose this class C network need to be divided into two equal parts, Then the subnetworks will be 
+
+1. 200.1.2.0 - 200.1.2.127
+2. 200.1.2.128 - 200.1.2.255
+
+Similar to actual network, Subnetwork will also have network ID and Directed broadcast IP for then network
+
+![](/images/Subnetting-Example.png)
+
+### Routing
+
+For a given IP address router needs to decide through which interface it should send?
+
+For that reason we have **subnet mask** 
+
+##### Subnetmask
+
+Subnetmask contains 1's and 0's, Number of 1's represents Network ID part and subnet ID part, Number of 0's represent Host ID part
+
+For the above example subnet mask will be 255.255.255.128
+
+Use of it is for any given IP address if we **and** it with subnet mask the output will be network ID of network with which the IP belongs to
+
+For maintaining this table router will maintain some data called routing table
+
+Routing table for the above example
+
+| Network ID | Subnet Mask | Interface |
+| -- | -- | -- |
+| 200.1.2.0 | 255.255.255.128 | A |
+| 200.1.2.0 | 255.255.255.128 | B |
+| 0.0.0.0 | 0.0.0.0 | C |
+
+If there is more than one match then choose the one with the largest subnet mask
+
+Similar to above example there can be variable length subnetting.
+
 ### Credits
-1. [Wikipedia](https://en.wikipedia.org/wiki/Classful_network)
+1. [Wikipedia - Classful Network](https://en.wikipedia.org/wiki/Classful_network)
+2. [Wikipedia - Subnetwork](https://en.wikipedia.org/wiki/Subnetwork)

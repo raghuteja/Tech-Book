@@ -113,6 +113,26 @@ Consider a CIDR block 20.30.40.10/25 and we need to divide this block into two s
 1. 20.30.40.0/26
 2. 20.30.40.64/26
 
+### Interesting things about subnetting
+
+For getting connected to internet we need IP address which will be provided by ISP, Along with IP ISP will also provide Default gateway (default router connected with the internet), Subnet mask (the mask you should use) and DNS (used to convert domain name into IP)
+
+**For a host, Why do we need subnet mask?**
+
+When ever you send a packet to a destination we should know
+
+1. IP address of destination
+2. Is destination in our network or in some other network
+
+We need point 2 because if destination is in our network we can directly send packet to destination otherwise we need to send packet to router (default gateway), and router will forward it to destination.
+
+Now how we need to decide whether destination is in our network or not, There subnet mask comes into picture
+
+Every host will have subnet mask
+Host will calculate its network ID and destination network with the subnet mask and if does not match it assumes it is not in the same network and forward the packet to default gateway
+
+In some cases we will find subnet mask as 255.255.255.255 in a host i.e, it will treat all the other IP's are present in some other network and it will forward all the packets to default gateway
+
 
 ### Credits
 1. [Wikipedia - Classful Network](https://en.wikipedia.org/wiki/Classful_network)

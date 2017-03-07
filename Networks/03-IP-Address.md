@@ -64,7 +64,7 @@ For a given IP address router needs to decide through which interface it should 
 
 For that reason we have **subnet mask** 
 
-##### Subnetmask
+##### Subnetmask (Network Mask)
 
 Subnetmask contains 1's and 0's, Number of 1's represents Network ID part and subnet ID part, Number of 0's represent Host ID part
 
@@ -88,6 +88,30 @@ Similar to above example there can be variable length subnetting.
 
 ### CIDR (Classless Interdomain Routing)
 
+Instead of dividing IP addresses into classes of A, B ... we divide based on requirement. Divisions are called blocks. So for a given IP address we will not be able to fix class in classes that means we will not be able to fix network ID (Block ID) based on IP address
+
+So Given an IP address, How are we going to decide what part of it is Block ID and what part of it is Host ID?
+
+That is why representation of classless is a.b.c.d/n i.e, number of bits used for block ID part is 'n'
+
+#### Rules for forming CIDR blocks
+
+1. All the IP address in a block should be contiguous
+2. Block size should be a power of 2
+3. First IP address in block should be evenly divisible by size of the block
+
+First IP address in the block will be reserved for block ID, Last IP address is reserved for directed broadcast address
+
+#### Subnetting in CIDR
+
+Exactly similar to classful network subnetting
+
+##### Example subnet in CIDR
+
+Consider a CIDR block 20.30.40.10/25 and we need to divide this block into two sub networks, The subnetworks will be
+
+1. 20.30.40.0/26
+2. 20.30.40.64/26
 
 
 ### Credits

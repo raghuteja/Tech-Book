@@ -133,6 +133,9 @@ Host will calculate its network ID and destination network with the subnet mask 
 
 In some cases we will find subnet mask as 255.255.255.255 in a host i.e, it will treat all the other IP's are present in some other network and it will forward all the packets to default gateway
 
+### Supernetting
+
+
 
 ### Credits
 1. [Wikipedia - Classful Network](https://en.wikipedia.org/wiki/Classful_network)

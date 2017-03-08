@@ -58,9 +58,15 @@ In general it will be sender window size + receiver window size
 
 Since receiver window size is 1, If one packet timeout happens then entire window will be replayed again
 
+If the packet is corrupted receiver will discard the packet silently
+
 ### Selective Repeat
 
 1. Receiver window size is equal to Sender window size
 
 Since receiver window size is more, it can keep track of all packets even if one packet is lost. So from sender side we don't need to send entire window, we can just replay the selected timed out packet
 
+If the packet is corrupted receiver is going to send negative ack because of which sender will retransmit packet before timeout
+
+### Credits
+1. [Computer Networking Lectures](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)

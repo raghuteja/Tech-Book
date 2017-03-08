@@ -135,7 +135,17 @@ In some cases we will find subnet mask as 255.255.255.255 in a host i.e, it will
 
 ### Supernetting
 
+Why do we need to do subnetting and why do we need to combine them again?
 
+Routing table is supposed to contain one entry per network, So number of entries in routing table represents number of networks present. So if we have lots of small networks it will take longer time for router to process the table
+
+So we will combine small networks into big network
+
+#### Rules for Supernetting
+
+1. All the networks should be contiguous
+2. Size of all the networks should be same and should be a power of 2
+3. The first network should be divisible by size of block
 
 ### Credits
 1. [Wikipedia - Classful Network](https://en.wikipedia.org/wiki/Classful_network)

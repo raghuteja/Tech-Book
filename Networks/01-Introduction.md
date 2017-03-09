@@ -22,6 +22,12 @@ statistical multiplexing is sharing link by time division/ frequency division.
 **Pros :** Sender will never gets busy signal
 **Cons :** Variable delay, Potential for losing or drop of a packet
 
+### Types of networks
+
+1. LAN - Local Area Network (All computers are near by)
+2. MAN - Metropolitan Area Network (Spans large cities)
+3. WAN - Wide Area Network (Combination of MAN's)
+
 ### Credits
 
 1. Packet Switching image Sources are taken from [this](https://en.wikipedia.org/wiki/File:Packet_Switching.gif) link, copyrights apply

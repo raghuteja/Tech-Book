@@ -42,3 +42,6 @@ So while defining the multi statement macro to avoid such scenarios we will wrap
 ```
 
 which works as expected
+
+### Credits
+1. [Quora answer](https://www.quora.com/What-is-the-purpose-of-using-do-while-0-in-macros/answer/Robert-Love-1?srid=3snW)

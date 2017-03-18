@@ -1,6 +1,6 @@
 # Processes
 
-### Process
+### Process details
 
 ##### Memory Layout
 
@@ -14,4 +14,14 @@
 ![](/images/Process-States.png)
 
 ##### PCB - Process Control Block
+
+1. Process state
+2. Program counter
+3. CPU registers
+4. CPU-scheduling information
+5. Memory-management information
+6. Accounting information
+7. I/O status information
+
+### Process scheduling
 

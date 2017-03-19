@@ -44,7 +44,7 @@ Broadcasting packet from one host to all hosts in other network (IP : Last IP of
 
 A subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting.
 
-![](/images/Subnetting_operation.svg)
+![](/assets/Subnetting_operation.svg)
 
 ##### Example subnet
 
@@ -56,7 +56,7 @@ Suppose this class C network need to be divided into two equal parts, Then the s
 
 Similar to actual network, Subnetwork will also have network ID and Directed broadcast IP for then network
 
-![](/images/Subnetting-Example.png)
+![](/assets/Subnetting-Example.png)
 
 ### Routing
 

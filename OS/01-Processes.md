@@ -11,7 +11,7 @@
 
 ##### State transitions
 
-![](/images/Process-States.png)
+![](/assets/Process-States.png)
 
 ##### PCB - Process Control Block
 

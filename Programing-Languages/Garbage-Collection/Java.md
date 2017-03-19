@@ -24,7 +24,7 @@ Once TLAB allocation is not possible allocation moves to Eden shared space, If t
 
 A generational tracing collector starts from the root set, but does not traverse references that lead to objects in the older generation, which reduces the size of the object graph to be traced. But this creates a problem, what if an object in the older generation references a younger object, which is not reachable through any other chain of references from a root?
 
-#### Card Marking
+##### Card Marking
 
 A piece of code executed whenever a member variable (of a reference type) is assigned/written to. If the new reference points to a young object and it's stored in an old object, the write barrier records that fact for the garbage collect.
 
@@ -49,6 +49,26 @@ for i from 0 to (heap_size >> K):
 
 
 After the marking phase is completed, all the live objects in Eden are copied to one of the Survivor spaces. The whole Eden is now considered to be empty and can be reused to allocate more objects. Such an approach is called "Mark and Copy": the live objects are marked, and then copied (not moved) to a survivor space.
+
+#### Survivor Spaces
+
+Two survivor spaces called from and to, Note that one of the two will always be empty
+
+At the time of GC all objects are copied to empty survivor space and other space will become empty, JVM maintains two survivor spaces to address fragmentation.
+
+This copying objects are done several times till the objects are old enough(survives after several GC runs), If they are old they will be promoted to old generation
+
+Here compact phase is not required
+
+#### Old Generation
+
+GC in the Old Generation happens less frequently than in the Young Generation, Since most of objects in old are expected to live longer there won't be any mark and copy phase instead the objects are moved around for fragmentation
+
+Here compact phase is required
+
+#### Permanent Generation
+
+It is used to store metadata such as classes
 
 ### Credits
 

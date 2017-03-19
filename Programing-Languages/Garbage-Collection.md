@@ -14,4 +14,4 @@ Starts from root node of application, walks the object graph, mark objects that 
 Delete unreachable objects
 
 **Compact**
-Compacting the memory y moving around the objects and making allocation contigeous
+Compacting the memory y moving around the objects and making allocation contiguous

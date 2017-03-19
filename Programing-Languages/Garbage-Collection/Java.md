@@ -20,6 +20,8 @@ New objects are allocated in Eden space, Since there can be multiple threads pos
 
 Once TLAB allocation is not possible allocation moves to Eden shared space, If there is no enough space either then GC process inside young generation is triggered. If GC also does not result in sufficient free memory inside Eden, then the object is allocated in the Old Generation.
 
+---
+
 A generational tracing collector starts from the root set, but does not traverse references that lead to objects in the older generation, which reduces the size of the object graph to be traced. But this creates a problem, what if an object in the older generation references a younger object, which is not reachable through any other chain of references from a root?
 
 #### Card Marking
@@ -42,6 +44,11 @@ for i from 0 to (heap_size >> K):
     if card_table[i]:
         scan heap[i << K .. (i + 1) << K] for young pointers
 ```
+
+---
+
+
+After the marking phase is completed, all the live objects in Eden are copied to one of the Survivor spaces. The whole Eden is now considered to be empty and can be reused to allocate more objects. Such an approach is called "Mark and Copy": the live objects are marked, and then copied (not moved) to a survivor space.
 
 ### Credits
 

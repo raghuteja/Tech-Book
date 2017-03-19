@@ -28,4 +28,5 @@ Compacting the memory moving around the objects and making allocation contiguous
 
 Here cycles won't be leaked as above
 
-One drawback in mark and sweep is application need to be paused while this method is running, which will cause latency issues
+One drawback in mark and sweep is application need to be paused while mark phase is going on, which will cause latency issues
+During sweep phase application can run in parallel

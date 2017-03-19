@@ -70,6 +70,12 @@ Here compact phase is required
 
 It is used to store metadata such as classes
 
+### Types of GC's
+
+1. Minor - Happens in Young generation
+2. Major - Happens in Old generation
+3. Full - Happens in both generations
+
 ### Credits
 
 1. [Oracle Java Garbage collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)

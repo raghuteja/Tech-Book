@@ -1,6 +1,6 @@
 # Tech-Book
 
-This repo/book is not intended to teach anyone, This is just the log of my technical things which i read till now.
+This repo/book is not intended to teach anyone, This is just the log of technical things which i read till now.
 
 This is intended for my future reference
 

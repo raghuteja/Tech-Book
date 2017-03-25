@@ -40,4 +40,4 @@ LCM \* GCD = a \* b
 
 ### Credits
 
-1. [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+1. [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/) - [TODO]

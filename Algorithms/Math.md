@@ -24,6 +24,20 @@ bool isPrime(int n)
 
 Using sieve of Eratosthenes
 
+### GCD of two numbers
+
+```cpp
+int GCD(int a, int b)
+{
+   if (b==0) return a;
+   return GCD(b,a%b);
+}
+```
+
+### LCM of two numbers
+
+LCM \* GCD = a \* b
+
 ### Credits
 
 1. [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)

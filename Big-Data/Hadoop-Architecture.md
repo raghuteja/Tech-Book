@@ -26,3 +26,7 @@ Two core components
 * HDFS stores files in blocks(storage unit of HDFS)
 * Follows WORM [Write Once Read Many]
 * Instead of data to processing, hadoop can do processing to data, Such that there won't be any network congestion
+
+##### Name Node
+* NameNode keeps the entire metadata in RAM
+* NameNode records changes to HDFS in a write ahead log called journal in its local file system

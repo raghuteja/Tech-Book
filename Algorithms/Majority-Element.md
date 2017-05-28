@@ -31,6 +31,10 @@ int findCandidate(int a[], int size)
 }
 ```
 
+### Variants
+
+1. Find if an element is present more than n/3 times?
+
 ### Source
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)

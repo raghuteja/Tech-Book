@@ -49,3 +49,35 @@ $$
    b_1 & b_2 & b_3
 \end{vmatrix}
 $$
+
+#### Planes
+
+Given three points in a plane $$P_1, P_2, P_3$$. Let $$P$$ is a point in the plane then,
+
+$$\overrightarrow{P_1P}\centerdot(\overrightarrow{P_1P_2}X\overrightarrow{P_1P_3}) = 0$$
+
+$$\implies det(\overrightarrow{P_1P}, \overrightarrow{P_1P_2}, \overrightarrow{P_1P_3}) = 0$$
+
+#### Equations of planes
+
+$$ ax + by + cz = d $$
+
+Normal vector to the plane : $$\langle \hat{a}, \hat{b}, \hat{c} \rangle$$
+
+#### Parametric equations of line
+
+$$
+x(t) = a_1t+b_1,
+y(t) = a_2t+b_2,
+z(t) = a_3t+b_3
+$$
+
+#### Matrices
+
+$$ AX = B \implies X = A^{-1}B$$
+
+$$ A^{-1} = adj(A)/det(A)$$
+
+In 3D system, in general two planes intersect a line and third plane intersects the line at a point
+
+Other possible solutions are a line, a plane

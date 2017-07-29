@@ -62,3 +62,10 @@ Ex: Regression, Classification
 Unsupervised learning is where you only have input data $$X$$ and no corresponding output variables.
 
 Ex: Clustering
+
+### Assessing Model accuracy
+
+#### Measuring the quality of fit
+
+Mean squared error $$MSE = 1/n(\textstyle\sum_{i=1}^n (y_i - \hat{f}(x_i))^2)$$
+

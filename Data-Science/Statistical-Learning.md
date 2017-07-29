@@ -2,9 +2,9 @@
 
 Suppose that we observe a quantitative response $$Y$$ and p different predictors, $$X_1, X_2, . . . , X_p$$. We assume that there is some relationship between $$Y$$ and $$X = (X_1,X_2,...,X_p)$$, which can be written in the very general form
 
-$$Y =f(X)+ε$$
+$$Y =f(X)+\varepsilon$$
 
-Here f is some fixed but unknown function of $$X_1, . . . , X_p$$, and $$ε$$ is a random error term, which is independent of $$X$$ and has mean zero. 
+Here f is some fixed but unknown function of $$X_1, . . . , X_p$$, and $$\varepsilon$$ is a random error term, which is independent of $$X$$ and has mean zero. 
 
 ### Why do we need to estimate $$f$$
 
@@ -18,13 +18,13 @@ where $$\hat{f}$$ represents our estimate for $$f$$, and $$\hat{Y}$$ represents 
 
 The accuracy of $$\hat{Y}$$ as a prediction for $$Y$$ depends on two quantities, which we will call the reducible error and the irreducible error. In general, $$\hat{f}$$ will not be a perfect estimate for $$f$$, and this inaccuracy will introduce some error. This error is reducible because we can potentially improve the accuracy of $$\hat{f}$$ by using the most appropriate statistical learning technique to estimate f.
 
-Since $$Y$$ is a function of $$ε$$, Even if we estimate $$f$$ very well we cannot reduce this error (Irreducible error). 
+Since $$Y$$ is a function of $$\varepsilon$$, Even if we estimate $$f$$ very well we cannot reduce this error (Irreducible error). 
 
 **Why is there an irreducible error?**
 
 This is because there can be unmeasurable variations and dependencies
 
-$$ E(Y-\hat{Y})^2 = [f(X)-\hat{f}(X)]^2 + Var(ε)$$
+$$ E(Y-\hat{Y})^2 = [f(X)-\hat{f}(X)]^2 + Var(\varepsilon)$$
 
 #### Inference
 
@@ -40,9 +40,9 @@ One may be interested in the following questions
 
 We make some assumptions about $$f$$
 
-$$f(X) = β_0 +β_1X_1 +β_2X_2 +...+β_pX_p$$
+$$f(X) = \beta_0 +\beta_1X_1 +\beta_2X_2 +...+\beta_pX_p$$
 
-Then finding $$f$$ boils down to finding parameters $$β$$
+Then finding $$f$$ boils down to finding parameters $$\beta$$
 
 The potential disadvantage of parametric method is if the actual $$f$$ is too far from our assumption, then our estimations will be poor. This can be reduced by using more flexible models which may cause **overfitting**
 

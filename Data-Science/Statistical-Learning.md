@@ -69,3 +69,30 @@ Ex: Clustering
 
 Mean squared error $$MSE = 1/n(\textstyle\sum_{i=1}^n (y_i - \hat{f}(x_i))^2)$$
 
+![](/assets/MSE-Flexibility.png)
+
+The red color in right side of the figure is test MSE and other one is training MSE
+
+As the flexibility increases beyond the limit training error decreases but the test error increases, This is called overfitting
+
+#### Bias-Variance tradeoff
+
+Given $$x_0, y_0$$ as test data
+
+$$E(y_0-\hat{f}(x_0))^2 = Var(\hat{f}(x_0)) + [Bias(\hat{f}(x_0))]^2 + Var(\varepsilon)$$
+
+From the above equation, In order to minimize test error we need to minimize bias as well as variance 
+
+**Variance**
+
+Signifies the amount by which $$\hat{f}$$ will change if we estimate using different dataset
+
+In general more flexible statistical training methods will have high variance
+
+**Bias**
+
+Signifies the error that is introduced by approximating a real life problem
+
+No matter how well we try estimate a real life problem using linear function, it won't be accurate. That implies linear regression will have high bias
+
+In general more flexible functions will have low bias

@@ -19,6 +19,7 @@
 - [Data-Science](./Data-Science/README.md)
   - [Prerequisites](Data-Science/Prerequisites/README.md)
     - [Multi-Variable-Calculus](Data-Science/Prerequisites/Multi-Variable-Calculus.md)
+  - [Statistical-Learning](Data-Science/Statistical-Learning.md)
 - [Data-Stores](./Data-Stores/README.md)
   - [Columnar-DB](Data-Stores/Columnar-DB.md)
   - [Sharding](Data-Stores/Sharding.md)

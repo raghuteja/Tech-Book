@@ -56,7 +56,7 @@ Given three points in a plane $$P_1, P_2, P_3$$. Let $$P$$ is a point in the pla
 
 $$\vec{P_1P}\centerdot(\vec{P_1P_2}X\vec{P_1P_3}) = 0$$
 
-$$\implies det(\vec{P_1P}, \vec{P_1P_2}, \vec{P_1P_3}) = 0$$
+$$\equiv det(\vec{P_1P}, \vec{P_1P_2}, \vec{P_1P_3}) = 0$$
 
 #### Equations of planes
 
@@ -74,7 +74,7 @@ $$
 
 #### Matrices
 
-$$ AX = B \implies X = A^{-1}B$$
+$$ AX = B \equiv X = A^{-1}B$$
 
 $$ A^{-1} = adj(A)/det(A)$$
 

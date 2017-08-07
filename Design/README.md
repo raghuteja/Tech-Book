@@ -1,4 +1,10 @@
-# To Read
+# ReadMe
+
+### Latency Numbers
+
+![](http://i.imgur.com/k0t1e.png)
+
+### To Read
 
 1. In LinkedIn design how many hops there are between you and another person?
 2. How to design Online chess game?
@@ -8,3 +14,8 @@
 6. Read links in [Quora](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview)
 7. Read [Hacking Note](https://www.hackingnote.com/en/interview/system-design-interview-questions/)
 8. Read [stevekrenzel](http://stevekrenzel.com/)
+
+
+### Credits
+
+1. [Jonas Bonér](https://gist.github.com/jboner/2841832)

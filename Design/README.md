@@ -14,6 +14,7 @@
 6. Read links in [Quora](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview)
 7. Read [Hacking Note](https://www.hackingnote.com/en/interview/system-design-interview-questions/)
 8. Read [stevekrenzel](http://stevekrenzel.com/)
+9. How to generate a uniformly distributed random number
 
 
 ### Credits

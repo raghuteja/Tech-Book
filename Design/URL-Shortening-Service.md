@@ -68,4 +68,5 @@ We can have the cache eviction policy as [LRU (Least Recently Used)](/Data-Struc
 ### Credits
 
 * [Design tinyurl](http://blog.gainlo.co/index.php/2016/03/08/system-design-interview-question-create-tinyurl-system/)
+* [Educative](https://www.educative.io/collection/page/5668639101419520/5649050225344512/5668600916475904)
 

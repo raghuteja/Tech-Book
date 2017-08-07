@@ -63,7 +63,7 @@ Hash the key and store it in corresponding server by using the hash output. This
 
 If certain URL's are getting accessed faster, we can keep those set of url's in cache for faster access.
 
-We can have the cache eviction policy as LRU
+We can have the cache eviction policy as [LRU (Least Recently Used)](/Data-Structures/LRU-Implementation.md)
 
 ### Credits
 

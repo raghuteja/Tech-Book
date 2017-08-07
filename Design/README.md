@@ -2,7 +2,7 @@
 
 ### Latency Numbers
 
-![](http://i.imgur.com/k0t1e.png)
+![](/assets/latency-graph.png)
 
 ### To Read
 

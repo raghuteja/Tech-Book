@@ -39,3 +39,4 @@ Maintain a binary search tree whose keys are machine values
 
 * [Medium](https://medium.com/@sent0hil/consistent-hashing-a-guide-go-implementation-fe3421ac3e8f)
 * [Wikipedia](https://en.wikipedia.org/wiki/Consistent_hashing)
+* [MIT Lecture](https://www.youtube.com/watch?v=hM547xRIdzc)

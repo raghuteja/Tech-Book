@@ -22,6 +22,10 @@ At the same time, map every cache in the system to a point on the unit circle.
 
 Now assign each key to the first cache whose point it encounters moving clockwise
 
+### Replication
+
+Instead of assigning key to the first cache in clockwise we will assign key to first three caches in clockwise rotation.
+
 ### Implementation
 
 Maintain a binary search tree whose keys are machine values
@@ -29,7 +33,6 @@ Maintain a binary search tree whose keys are machine values
 1. To insert an item, Find the successor and add it to the machine
 2. To insert a machine, Find the successor and get items from that machine
 3. To delete a machine, Find the successor and push items to that machine
-
 
 ### Uses
 

@@ -1,12 +1,12 @@
 # Scalability
 
-### Vertical Scaling
+### Vertical Scaling (Scale-Up)
 
 It is the ability to increase the capacity of existing hardware or software by adding resources - for example, adding processing power to a server to make it faster.
 
 It is used in virtualization
 
-### Horizontal Scaling
+### Horizontal Scaling (Scale-Out)
 
 Servers of a scalable web service are hidden behind a load balancer, which evenly distributes load onto group of application servers which typically called **Load Balancer**.
 

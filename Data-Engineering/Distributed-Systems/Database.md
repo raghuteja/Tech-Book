@@ -6,6 +6,11 @@ Single master and multiple slaves
 
 This is helpful only when we have lots and lots of reads when compared to writes
 
+**Pros**
+If application is read heavy, then instead of reading from master we can use slaves for reading databases and Insert queries can be executed on master which ultimately propagated to slaves
+**Cons**
+Still its a single point failure for writes
+
 #### Problems
 
 If there is some delay in sync between master and slave then we will get consistency issue, In most of distributed systems we are more worried about eventual consistency

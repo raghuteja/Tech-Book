@@ -15,3 +15,8 @@ Isolation means that one transaction cannot read data from another transaction t
 **D: Durability**
 
 Durability means that once a transaction is complete, it is guaranteed that all of the changes have been recorded to a durable medium (such as a hard disk)
+
+
+# Credits
+
+1. [Stackoverflow Answer](https://stackoverflow.com/a/3740307/1465334)

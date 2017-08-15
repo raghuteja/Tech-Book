@@ -26,6 +26,22 @@ Now assign each key to the first cache whose point it encounters moving clockwis
 
 Instead of assigning key to the first cache in clockwise we will assign key to first three caches in clockwise rotation.
 
+The main problem here is consistancy which means there can be a situation where read doesn't return the most up-to-date value.
+
+For that we have a consistency rule : `R + W > N`
+
+1. N is Number of replicas
+2. R is Number of nodes a read operation should contact before successful read operation
+3. R is Number of nodes a write operation should contact before successful read operation
+
+How this formula came?
+
+There are N nodes that might hold the value. A write contacts at least W nodes. A subsequent read contacts at least R nodes. Since R + W > N there is at least one node that both Read operation and Write operation is made, so this node is able to return the latest write to the read operation.
+
+Max value of R is N and W is N, This corresponds to reading and writing at ConsistencyLevel ALL
+
+In case if we need very low latency we should be expecting eventual consistency instead of instant consistency
+
 ### Implementation
 
 Maintain a binary search tree whose keys are machine values
@@ -43,3 +59,4 @@ Maintain a binary search tree whose keys are machine values
 * [Medium](https://medium.com/@sent0hil/consistent-hashing-a-guide-go-implementation-fe3421ac3e8f)
 * [Wikipedia](https://en.wikipedia.org/wiki/Consistent_hashing)
 * [MIT Lecture](https://www.youtube.com/watch?v=hM547xRIdzc)
+* [R + W > N Explanation](https://stackoverflow.com/a/7823201/1465334)

@@ -22,3 +22,8 @@ Transformation functions turn one RDD to another and action functions will be us
 
 ### Spark Architecture
 
+![](/assets/Spark-Cluster-Architecture.png)
+
+### Credits
+
+1. [Apache Spark: core concepts, architecture and internals](http://datastrophic.io/core-concepts-architecture-and-internals-of-apache-spark/)

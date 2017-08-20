@@ -8,7 +8,7 @@ sometimes called as regressing $$Y$$ onto $$X$$
 
 ##### Estimating the coefficients
 
-Let $$y_i = \hat{\beta_0} + \hat{\beta_1}x_i$$ be the prediction for Y based on the ith value of X. Then $$e_i = y_i − \hat{y_i}$$ represents the ith residual, This is the difference between the ith observed response value and the ith response value that is predicted by our linear model. We define the residual sum of squares (RSS) as
+Let $$y_i = \hat{\beta_0} + \hat{\beta_1}x_i$$ be the prediction for Y based on the ith value of X. Then $$e_i = y_i - \hat{y_i}$$ represents the ith residual, This is the difference between the ith observed response value and the ith response value that is predicted by our linear model. We define the residual sum of squares (RSS) as
 
 $$RSS = e_1^2 + e_2^2 + ... + e_n^2$$
 

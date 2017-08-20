@@ -8,7 +8,7 @@ Spark is aganostic of storage model (Can works on/on top of HDFS, Cassandra etc.
 
 Transformation functions turn one RDD to another and action functions will be used to reduce
 
-It is kind of batch mode processing frameworks
+It is kind of batch mode processing frameworks, But spark also has streaming fashion called spark-streaming
 
 ### Properties of RDD
 

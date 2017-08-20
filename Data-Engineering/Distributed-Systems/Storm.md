@@ -20,7 +20,7 @@
 
 Stream grouping assigns tasks through consistent hashing like mechanism
 
-
+![](/assets/Storm-Cluster-Architecture.png)
 
 ### Credits
 

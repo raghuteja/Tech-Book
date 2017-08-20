@@ -27,3 +27,4 @@ Transformation functions turn one RDD to another and action functions will be us
 ### Credits
 
 1. [Apache Spark: core concepts, architecture and internals](http://datastrophic.io/core-concepts-architecture-and-internals-of-apache-spark/)
+2. [Safari Books Online](https://www.safaribooksonline.com/library/view/learning-path-advanced/9781491978665/)

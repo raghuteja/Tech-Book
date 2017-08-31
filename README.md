@@ -5,7 +5,8 @@ This repo/book is not intended to teach anyone, This is just the log of technica
 This is intended for my future reference
 
 ```arbor
-"nodes": {
+{
+  "nodes": {
     "Computer Science": {
       "color": "red"
     },

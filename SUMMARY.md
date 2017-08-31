@@ -1,6 +1,5 @@
 # Summary
 
-- [Flowchart](./Flowchart.md)
 - [To-Read](./To-Read.md)
 - [Algorithms](./Algorithms/README.md)
   - [01-Sorting](Algorithms/01-Sorting.md)
@@ -12,12 +11,11 @@
   - [Pattern-Matching](Algorithms/Pattern-Matching.md)
   - [Rotate-Array-By-D-Elements](Algorithms/Rotate-Array-By-D-Elements.md)
   - [Search-Element-In-Sorted-Rotated-Array](Algorithms/Search-Element-In-Sorted-Rotated-Array.md)
-- [Big-Data](./Big-Data/README.md)
-  - [Hadoop-Architecture](Big-Data/Hadoop-Architecture.md)
 - [Data-Engineering](./Data-Engineering/README.md)
   - [Distributed-Systems](Data-Engineering/Distributed-Systems/README.md)
     - [CAP-Theorem](Data-Engineering/Distributed-Systems/CAP-Theorem.md)
     - [Consistent-Hashing](Data-Engineering/Distributed-Systems/Consistent-Hashing.md)
+    - [Hadoop-Architecture](Data-Engineering/Distributed-Systems/Hadoop-Architecture.md)
     - [Lambda-Architecture](Data-Engineering/Distributed-Systems/Lambda-Architecture.md)
     - [Map-Reduce](Data-Engineering/Distributed-Systems/Map-Reduce.md)
     - [Scaling-Datastore](Data-Engineering/Distributed-Systems/Scaling-Datastore.md)

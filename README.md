@@ -22,7 +22,7 @@ This is intended for my future reference
     "Data Science": {
       "color": "red"
     },
-    "DS &amp; Algorithms": {
+    "DS & Algorithms": {
       "color": "red"
     },
     "Data Structures": {
@@ -54,7 +54,7 @@ This is intended for my future reference
         "color": "#b2b19d",
         "width": 2
       },
-      "DS &amp; Algorithms": {
+      "DS & Algorithms": {
         "color": "#b2b19d",
         "width": 2
       },
@@ -87,7 +87,7 @@ This is intended for my future reference
         "width": 2
       }
     },
-    "DS &amp; Algorithms": {
+    "DS & Algorithms": {
       "Data Structures": {
         "color": "#b2b19d",
         "width": 2

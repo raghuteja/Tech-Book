@@ -80,9 +80,23 @@ In a dataset the point at which x% of the data is less than that value
 
 Moments in mathematical statistics involve a basic calculation.  These calculations can be used to find a probability distribution's mean, variance and skewness.
 
+In a discrete random variable,
 The $$s$$th moment of the data set with values $$x_1, x_2, x_3,...x_n$$ is given by the formula:
 
 $$(x_1^s + x_2^s + x_3^s + ... + x_n^s)/n$$
+
+First Moment is Simple Mean
+
+**Moments about the mean**
+
+$$((x_1-\mu)^s + (x_2-\mu)^s + (x_3-\mu)^s + ... + (x_n-\mu)^s)/n$$
+
+1. First moment about mean is zero
+2. Second moment about mean is variance
+3. Third moment about mean is skew
+4. Fourth moment about mean is kurtosis
+
+The above applies same for continues random variable
 
 ### Credits
 

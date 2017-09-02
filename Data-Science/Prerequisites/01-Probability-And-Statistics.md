@@ -43,7 +43,7 @@ $$
 
 This correction is called Bessel's correction.
 
-* **Theoretical Explanation** :  The standard deviation calculated with a divisor of $$n−1$$ is a standard deviation calculated from the sample as an estimate of the standard deviation of the population from which the sample was drawn. Because the observed values fall, on average, closer to the sample mean than to the population mean, the standard deviation which is calculated using deviations from the sample mean underestimates the desired standard deviation of the population. Using $$n−1$$ instead of $$n$$ as the divisor corrects for that by making the result a little bit bigger.
+* **Theoretical Explanation** :  The standard deviation calculated with a divisor of $$n-1$$ is a standard deviation calculated from the sample as an estimate of the standard deviation of the population from which the sample was drawn. Because the observed values fall, on average, closer to the sample mean than to the population mean, the standard deviation which is calculated using deviations from the sample mean underestimates the desired standard deviation of the population. Using $$n-1$$ instead of $$n$$ as the divisor corrects for that by making the result a little bit bigger.
 
 * **Degrees of Freedom** : It is the number of values in the calculation that are free to vary.
 

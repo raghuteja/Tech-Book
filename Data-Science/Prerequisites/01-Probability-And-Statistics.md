@@ -62,13 +62,27 @@ For continues data
 * Normal/Gaussian Distribution
 * Exponential Distribution
 
-### Mass function
+#### Mass function
 For discrete data
 
 **Examples**
 
 * Binomial probability mass function
 * Poisson probability mass function
+
+### Percentiles and Moments
+
+#### Percentiles
+
+In a dataset the point at which x% of the data is less than that value
+
+#### Moments
+
+Moments in mathematical statistics involve a basic calculation.  These calculations can be used to find a probability distribution's mean, variance and skewness.
+
+The $$s$$th moment of the data set with values $$x_1, x_2, x_3,...x_n$$ is given by the formula:
+
+$$(x_1^s + x_2^s + x_3^s + ... + x_n^s)/n$$
 
 ### Credits
 

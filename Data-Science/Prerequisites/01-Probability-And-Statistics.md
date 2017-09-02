@@ -98,6 +98,23 @@ $$((x_1-\mu)^s + (x_2-\mu)^s + (x_3-\mu)^s + ... + (x_n-\mu)^s)/n$$
 
 The above applies same for continues random variable
 
+### Covariance and Corelation
+
+Describe the degree to which two random variables or sets of random variables tend to deviate from their expected values in similar ways
+
+#### Covariance
+
+$$Cov(X, Y) = \sigma_{XY} = E[X - E[X]]E[Y - E[Y]]$$
+$$Cov(X, Y) = E[XY] - E[X]E[Y]$$
+
+#### Corelation
+
+$$Cor(X, Y) = \dfrac{Cov(X, Y)}{\sigma_X\sigma_Y}$$
+
+### Conditional Probability
+
+$$P(B|A) = \dfrac{P(A,B)}{P(B)}$$
+
 ### Credits
 
 1. [Population vs Sample variance and standard deviation](http://www.macroption.com/population-sample-variance-standard-deviation/)

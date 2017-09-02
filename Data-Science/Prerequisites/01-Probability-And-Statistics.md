@@ -115,6 +115,10 @@ $$Cor(X, Y) = \dfrac{Cov(X, Y)}{\sigma_X\sigma_Y}$$
 
 $$P(B|A) = \dfrac{P(A,B)}{P(B)}$$
 
+### Bayes Theorem
+
+$$P(B|A) = \dfrac{P(A)P(A|B)}{P(B)}$$
+
 ### Credits
 
 1. [Population vs Sample variance and standard deviation](http://www.macroption.com/population-sample-variance-standard-deviation/)

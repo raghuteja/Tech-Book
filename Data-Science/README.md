@@ -7,6 +7,9 @@
     "Supervised Learning": {
       "color": "red"
     },
+    "Semi-Supervised Learning": {
+      "color": "red"
+    },
     "Unsupervised Learning": {
       "color": "red"
     }
@@ -17,6 +20,10 @@
         "color": "#b2b19d",
         "width": 2
       },
+      "Semi-Supervised Learning": {
+        "color": "#b2b19d",
+        "width": 2
+      }
       "Unsupervised Learning": {
         "color": "#b2b19d",
         "width": 2

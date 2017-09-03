@@ -18,15 +18,18 @@
     "Machine Learning": {
       "Supervised Learning": {
         "color": "#b2b19d",
-        "width": 2
+        "width": 2,
+        "directed": true
       },
       "Semi-Supervised Learning": {
         "color": "#b2b19d",
-        "width": 2
+        "width": 2,
+        "directed": true
       },
       "Unsupervised Learning": {
         "color": "#b2b19d",
-        "width": 2
+        "width": 2,
+        "directed": true
       }
     }
   },

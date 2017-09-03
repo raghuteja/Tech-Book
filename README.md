@@ -8,7 +8,7 @@ This is intended for my future reference
 {
   "nodes": {
     "Computer Science": {
-      "color": "red"
+      "color": "black"
     },
     "Networks": {
       "color": "red"

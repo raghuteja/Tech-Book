@@ -2,7 +2,7 @@
 {
   "nodes": {
     "Machine Learning": {
-      "color": "red"
+      "color": "black"
     },
     "Supervised Learning": {
       "color": "red"

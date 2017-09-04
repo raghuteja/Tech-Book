@@ -12,6 +12,12 @@
     },
     "Unsupervised Learning": {
       "color": "red"
+    },
+    "Classification": {
+      "color": "red"
+    },
+    "Regression": {
+      "color": "red"
     }
   },
   "edges": {
@@ -27,6 +33,18 @@
         "directed": true
       },
       "Unsupervised Learning": {
+        "color": "#b2b19d",
+        "width": 2,
+        "directed": true
+      }
+    },
+    "Supervised Learning": {
+      "Classification": {
+        "color": "#b2b19d",
+        "width": 2,
+        "directed": true
+      },
+      "Regression": {
         "color": "#b2b19d",
         "width": 2,
         "directed": true

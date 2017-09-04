@@ -11,3 +11,7 @@
 * [Bloom Filter](https://medium.com/@nhanttse01989/three-useful-probabilistic-data-structures-every-big-data-engineer-should-know-8f3b5225afea#.asc0btmpz)
 * [Facebook Photos storage](https://code.facebook.com/posts/685565858139515/needle-in-a-haystack-efficient-storage-of-billions-of-photos/)
 
+
+### ML Related
+
+* [Links](https://hackernoon.com/learning-path-for-machine-learning-engineer-a7d5dc9de4a4)

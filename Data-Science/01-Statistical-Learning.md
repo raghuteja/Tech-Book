@@ -16,7 +16,7 @@ $$\hat{Y} = \hat{f}(X)$$
 
 where $$\hat{f}$$ represents our estimate for $$f$$, and $$\hat{Y}$$ represents the resulting prediction for $$Y$$.
 
-The accuracy of $$\hat{Y}$$ as a prediction for $$Y$$ depends on two quantities, which we will call the reducible error and the irreducible error. In general, $$\hat{f}$$ will not be a perfect estimate for $$f$$, and this inaccuracy will introduce some error. This error is reducible because we can potentially improve the accuracy of $$\hat{f}$$ by using the most appropriate statistical learning technique to estimate f.
+The accuracy of $$\hat{Y}$$ as a prediction for $$Y$$ depends on two quantities, which we will call the reducible error and the irreducible error. In general, $$\hat{f}$$ will not be a perfect estimate for $$f$$, and this inaccuracy will introduce some error. This error is reducible because we can potentially improve the accuracy of $$\hat{f}$$ by using the most appropriate statistical learning technique to estimate $$f$$.
 
 Since $$Y$$ is a function of $$\varepsilon$$, Even if we estimate $$f$$ very well we cannot reduce this error (Irreducible error). 
 

@@ -81,3 +81,23 @@ $$ A^{-1} = adj(A)/det(A)$$
 In 3D system, in general two planes intersect a line and third plane intersects the line at a point
 
 Other possible solutions are a line, a plane
+
+##### Rank of a Matrix
+
+Rank of a matrix is number of linearly independent columns or number of linearly independent rows
+
+##### Trace of a Matrix
+
+Trace of a matrix is sum of its diagonal elements
+
+$$
+trace(A) = \sum_{i}(A_{ii}) = \sum_{i}(\lambda_i)
+$$
+
+Here $$\lambda$$ is eigen values of the matrix
+
+##### Inverse of a Matrix
+
+$$
+A^{-1} = Adj(A)/det(A)
+$$

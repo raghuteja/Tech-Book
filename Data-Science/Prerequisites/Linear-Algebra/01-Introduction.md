@@ -101,3 +101,25 @@ Here $$\lambda$$ is eigen values of the matrix
 $$
 A^{-1} = Adj(A)/det(A)
 $$
+
+##### Determinant of a Matrix
+
+$$
+Det(A) = \prod_{i}(\lambda_i)
+$$
+
+##### Orthogonal Matrix
+
+$$
+AA^T = I = A^TA
+$$
+
+##### Eigen values and Eigen vectors of a Matrix
+
+For an n x n square matrix A, e is an eigen vector of $$A$$ with eigen value $$\lambda$$ if
+
+$$
+Ae = \lambda e\\
+\implies (A - \lambda I)e = 0\\
+\implies det(A - \lambda I) = 0
+$$

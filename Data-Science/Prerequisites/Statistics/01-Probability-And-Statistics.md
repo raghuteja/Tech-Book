@@ -19,6 +19,14 @@
 
 * **Standard Deviation : ** Its just square root of variance($$\sigma$$), Usually used to identify outliers
 
+### Other measures
+
+* **Z-Score : ** How many standard deviations away from the mean is a data point 
+
+$$
+Z = \dfrac{data point - mean value}{standard deviation}
+$$
+
 
 ### Population vs Sample
 

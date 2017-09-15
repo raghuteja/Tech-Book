@@ -79,12 +79,10 @@ As the flexibility increases beyond the limit training error decreases but the t
 
 Given $$x_0, y_0$$ as test data
 
-$$E(y_0-\hat{f}(x_0))^2 \\
-\implies E[y_0^2 + \hat{f}^2(x_0) - 2y_0\hat{f}(x_0)]\\
-\implies E[y_0^2] + E[\hat{f}^2(x_0)] - E[2y_0\hat{f}(x_0)]\\
-\implies Var(y_0) + E[y_0]^2 + Var(\hat{f}(x_0)) + E[\hat{f}(x_0)]^2 - E[2y_0\hat{f}(x_0)]\\
-\implies Var(\hat{f}(x_0)) + [Bias(\hat{f}(x_0))]^2 + Var(\varepsilon)
-$$
+$$E(y_0-\hat{f}(x_0))^2 = E[y_0^2 + \hat{f}^2(x_0) - 2y_0\hat{f}(x_0)]$$
+$$\implies E[y_0^2] + E[\hat{f}^2(x_0)] - E[2y_0\hat{f}(x_0)]$$
+$$\implies Var(y_0) + E[y_0]^2 + Var(\hat{f}(x_0)) + E[\hat{f}(x_0)]^2 - E[2y_0\hat{f}(x_0)]$$
+$$\implies Var(\hat{f}(x_0)) + [Bias(\hat{f}(x_0))]^2 + Var(\varepsilon)$$
 
 From the above equation, In order to minimize test error we need to minimize bias as well as variance 
 

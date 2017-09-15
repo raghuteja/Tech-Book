@@ -29,7 +29,7 @@ $$
 
 The matrix representation of above equations is 
 $$
-AX = b \\[.5em]
+AX = b$$$$
 \begin{bmatrix}
    2 & -1 \\
    -1 & 2

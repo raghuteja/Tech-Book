@@ -13,6 +13,9 @@
     "Unsupervised Learning": {
       "color": "red"
     },
+    "Reinforcement Learning": {
+    "color": "red"
+    },
     "Classification": {
       "color": "red"
     },
@@ -33,6 +36,11 @@
         "directed": true
       },
       "Unsupervised Learning": {
+        "color": "#b2b19d",
+        "width": 2,
+        "directed": true
+      },
+      "Reinforcement Learning": {
         "color": "#b2b19d",
         "width": 2,
         "directed": true

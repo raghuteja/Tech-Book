@@ -5,12 +5,7 @@
 **Example**
 
 Solve the following linear equations
-$$
-\begin{gathered}
-   2x - y = 0 \\ 
-   -x + 2y = 3
-\end{gathered}
-$$
+$$2x - y = 0, -x + 2y = 3$$
 
 The above equation can be represented as linear combination of columns
 

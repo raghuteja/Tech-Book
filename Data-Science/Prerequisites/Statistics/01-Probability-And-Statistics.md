@@ -58,6 +58,12 @@ $$
 Z = \dfrac{data point - mean value}{standard deviation} = \dfrac{x - \mu}{\sigma}
 $$
 
+* **Coefficient of variation : ** Relative measure of variability (Standard deviation relative to the mean)
+
+$$
+Coefficient-of-variation = \bigg(\dfrac{\sigma}{\mu}*100\bigg)\%
+$$
+
 ### Probability
 
 #### Density function

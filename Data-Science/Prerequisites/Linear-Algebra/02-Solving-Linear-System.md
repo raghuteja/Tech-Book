@@ -62,6 +62,6 @@ i.e, the above equation is converted to $$AU = b'$$
 #### Matrices
 
 $$
-AX = b\\[.5em]
+AX = b$$$$
 X = A^{-1}b
 $$

@@ -19,15 +19,6 @@
 
 * **Standard Deviation : ** Its just square root of variance($$\sigma$$), Usually used to identify outliers
 
-### Other measures
-
-* **Z-Score : ** How many standard deviations away from the mean is a data point 
-
-$$
-Z = \dfrac{data point - mean value}{standard deviation}
-$$
-
-
 ### Population vs Sample
 
 Population is whole group where as sample is part of a population that is used to describe the characteristics like mean, standard deviation etc...
@@ -58,6 +49,14 @@ This correction is called Bessel's correction.
 In the above case of $$n$$ values the degrees of freedom is $$n-1$$, For estimating population variance from sample variance we typically divide by degrees of freedom as opposed by sample size.
 
 * **Mathematical Proof** : Check [here](https://en.wikipedia.org/wiki/Bessel%27s_correction)
+
+### Other measures
+
+* **Z-Score : ** How many standard deviations away from the mean is a data point 
+
+$$
+Z = \dfrac{data point - mean value}{standard deviation} = \dfrac{x - \mu}{\sigma}
+$$
 
 ### Probability
 

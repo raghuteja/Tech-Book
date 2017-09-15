@@ -118,8 +118,4 @@ $$
 
 For an n x n square matrix A, e is an eigen vector of $$A$$ with eigen value $$\lambda$$ if
 
-$$
-Ae = \lambda e\\
-\implies (A - \lambda I)e = 0\\
-\implies det(A - \lambda I) = 0
-$$
+$$Ae = \lambda e \Rightarrow (A - \lambda I)e = 0\Rightarrow det(A - \lambda I) = 0$$

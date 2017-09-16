@@ -1,9 +1,6 @@
 # Probability
 
-#
-## Probability
-
-#### Basic Rules
+### Basic Rules
 
 * **Union : **
 $$p(A \lor B) = p(A)+p(B)-p(A \land B)$$
@@ -25,7 +22,7 @@ $$p(X,Y)=p(X)p(Y)$$
 $$p(X, Y |Z) = p(X|Z)p(Y |Z)$$
 
 
-#### Density function
+### Density function
 For continues data
 
 **Examples**
@@ -34,7 +31,7 @@ For continues data
 * Normal/Gaussian Distribution
 * Exponential Distribution
 
-#### Mass function
+### Mass function
 For discrete data
 
 **Examples**

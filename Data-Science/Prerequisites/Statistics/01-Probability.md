@@ -39,6 +39,23 @@ For discrete data
 * Binomial probability mass function
 * Poisson probability mass function
 
+### Mean And Variance
+
+#### Mean ($$\mu$$)
+
+**Discrete :** $$ E[X] \triangleq \displaystyle\sum_{x \in X} x \space p(x) $$
+
+**Continues :** $$E[X] \triangleq \displaystyle\int_{X} x \space p(x) \space dx $$
+
+#### Variance ($$\sigma^2$$)
+
+$$Var[X] \triangleq E[(X - \mu)^2]$$
+
+$$E[X^2] = \mu^2 + \sigma^2$$
+
+$$std[X] \triangleq \sqrt{var[X]}$$
+
+
 ### Percentiles and Moments
 
 #### Percentiles

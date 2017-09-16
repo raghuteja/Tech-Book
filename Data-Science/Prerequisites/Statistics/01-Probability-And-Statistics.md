@@ -69,7 +69,7 @@ $$
 #### Basic Rules
 
 * **Union : ** 
-$$p(A \lor B) = p(A)+p(B)−p(A \land B)$$
+$$p(A \lor B) = p(A)+p(B)-p(A \land B)$$
 
 * **Joint : ** 
 $$p(A, B) = p(A \land B) = p(A|B)p(B)$$

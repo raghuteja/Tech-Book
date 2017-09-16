@@ -73,16 +73,19 @@ $$p(A \lor B) = p(A)+p(B)−p(A \land B)$$
 
 * **Joint : ** 
 $$p(A, B) = p(A \land B) = p(A|B)p(B)$$
-
 $$p(A) = \displaystyle\sum_b p(A, B) = \displaystyle\sum_bp(A|B = b)p(B = b)$$
 
 * **Conditional : **
-
 $$p(A|B) = \dfrac{p(A, B)}{p(B)} \space \space if \space p(B) > 0$$
 
 * **Bayes-Rule : **
-
 $$p(X =x|Y =y) = \dfrac{p(X =x,Y =y)}{p(Y =y)} = \dfrac{p(X =x)p(Y =y|X =x)}{\sum_{x'}p(X ={x'})p(Y =y|X =x')}$$
+
+* **Un-conditional Independent : **
+$$p(X,Y)=p(X)p(Y)$$
+
+* **Conditional Independent : **
+$$p(X, Y |Z) = p(X|Z)p(Y |Z)$$
 
 
 #### Density function

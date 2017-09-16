@@ -33,3 +33,8 @@ where $$\bar{y} \equiv 	\frac{1}{n} \textstyle\sum_{i=1}^ny_i$$ and $$\bar{x} \e
 ##### R-Squared
 
 R-Squared is a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination.
+
+### Real world applications
+
+1. Predict temperature
+2. Predict stock price

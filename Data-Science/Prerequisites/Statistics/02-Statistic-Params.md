@@ -1,4 +1,4 @@
-# Probability and Statistics
+# Statistic Params
 
 ### Types of data
 

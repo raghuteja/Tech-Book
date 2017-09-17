@@ -93,6 +93,21 @@ Describe the degree to which two random variables or sets of random variables te
 $$Cov(X, Y) = \sigma_{XY} = E[X - E[X]]E[Y - E[Y]]$$
 $$Cov(X, Y) = E[XY] - E[X]E[Y]$$
 
+If x is a d-dimensional random vector, its covariance matrix is defined to be the following symmetric, positive definite matrix:
+
+$$Cov[x] = E[(x−E[x])(x−E[x])^T] = 
+\begin{pmatrix}
+   var[X_1] & cov[X_1,X_2] & ··· & cov[X_1,X_d] \\
+   cov[X_2, X_1] & var[X_2] & ... & cov[X_2, X_d] \\
+   . & . & ... & . \\
+   . & . & ... & . \\
+   . & . & ... & . \\
+   cov[X_d, X_1] & cov[X_d,X_2] & ... & var[X_d]
+\end{pmatrix}
+$$
+
+Covariances can be between 0 and infinity. Sometimes it is more convenient to work with a normalized measure, with a finite upper bound.
+
 #### Corelation
 
 $$Cor(X, Y) = \dfrac{Cov(X, Y)}{\sigma_X\sigma_Y}$$

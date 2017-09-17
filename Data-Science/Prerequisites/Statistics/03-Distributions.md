@@ -35,3 +35,8 @@ $$Poi(x|\lambda) = e^{-\lambda} \dfrac{\lambda^x}{x!}$$
 
 ### Gaussian (normal) distribution
 
+$$N(x|\mu,\sigma^2) = \dfrac{1}{\sqrt{2\pi \sigma^2}}e^{-\dfrac{1}{2\sigma^2}(x-\mu)^2}$$
+
+**Mean :** $$\mu$$
+
+**Variance :** $$\sigma^2$$

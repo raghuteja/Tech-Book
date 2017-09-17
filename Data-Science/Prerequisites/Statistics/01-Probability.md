@@ -111,3 +111,9 @@ Covariances can be between 0 and infinity. Sometimes it is more convenient to wo
 #### Corelation
 
 $$Cor(X, Y) = \dfrac{Cov(X, Y)}{\sigma_X\sigma_Y}$$
+
+$$−1 \le Cor[X, Y] \le 1$$
+
+If there is a linear relationship between $$X$$ and $$Y$$ then $$Corr[X,Y] = 1$$
+
+If X and Y are independent, meaning $$p(X, Y ) = p(X)p(Y )$$, then $$cov [X, Y ] = 0$$, and hence $$corr [X, Y ] = 0$$ so they are uncorrelated, Converse is not true, **Uncorrelated does not imply independent**

@@ -40,3 +40,13 @@ $$N(x|\mu,\sigma^2) = \dfrac{1}{\sqrt{2\pi \sigma^2}}e^{-\dfrac{1}{2\sigma^2}(x-
 **Mean :** $$\mu$$
 
 **Variance :** $$\sigma^2$$
+
+### Laplace distribution
+
+$$Lap(x|\mu, b) = \dfrac{1}{2b}e^{-\dfrac{|x-\mu|}{b}}$$
+
+**Mean :** $$\mu$$
+
+**Mode :** $$\mu$$
+
+**Variance :** $$2b^2$$

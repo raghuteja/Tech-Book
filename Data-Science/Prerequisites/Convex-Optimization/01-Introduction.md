@@ -9,9 +9,9 @@ $$subject \space to \space f_i(x) \le b_i, i = 1,...,m$$
 
 * $$x = (x_1, x_2 ... x_n)$$ : Optimization variables
 
-* $$f_0 : R^n \to R$$ : Objective function
+* $$f_0 : \mathbb{R}^n \to \mathbb{R}$$ : Objective function
 
-* $$f_i : R^n \to R, i = 1,...,m$$ : Constraint functions
+* $$f_i : \mathbb{R}^n \to \mathbb{R}, i = 1,...,m$$ : Constraint functions
 
 ##### Optimal Solution
 

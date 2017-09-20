@@ -95,14 +95,14 @@ $$Cov(X, Y) = E[XY] - E[X]E[Y]$$
 
 If x is a d-dimensional random vector, its covariance matrix is defined to be the following symmetric, positive definite matrix:
 
-$$Cov[x] = E[(x−E[x])(x−E[x])^T] = 
+$$Cov[x] = E[(x-E[x])(x-E[x])^T] = 
 \begin{pmatrix}
-   var[X_1] & cov[X_1,X_2] & ··· & cov[X_1,X_d] \\
-   cov[X_2, X_1] & var[X_2] & ... & cov[X_2, X_d] \\
-   . & . & ... & . \\
-   . & . & ... & . \\
-   . & . & ... & . \\
-   cov[X_d, X_1] & cov[X_d,X_2] & ... & var[X_d]
+   var[X_1] & cov[X_1,X_2] & \cdot \cdot \cdot & cov[X_1,X_d] \\
+   cov[X_2, X_1] & var[X_2] & \cdot \cdot \cdot & cov[X_2, X_d] \\
+   \cdot & \cdot & \cdot \cdot \cdot & \cdot \\
+   \cdot & \cdot & \cdot \cdot \cdot & \cdot \\
+   \cdot & \cdot & \cdot \cdot \cdot & \cdot \\
+   cov[X_d, X_1] & cov[X_d,X_2] & \cdot \cdot \cdot & var[X_d]
 \end{pmatrix}
 $$
 
@@ -112,7 +112,7 @@ Covariances can be between 0 and infinity. Sometimes it is more convenient to wo
 
 $$Cor(X, Y) = \dfrac{Cov(X, Y)}{\sigma_X\sigma_Y}$$
 
-$$−1 \le Cor[X, Y] \le 1$$
+$$-1 \le Cor[X, Y] \le 1$$
 
 If there is a linear relationship between $$X$$ and $$Y$$ then $$Corr[X,Y] = 1$$
 

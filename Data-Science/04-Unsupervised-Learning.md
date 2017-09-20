@@ -7,7 +7,7 @@ we are just given output data, without any inputs. The goal is to discover inter
 Let $$K$$ denote the number of clusters. Our first goal is to estimate the distribution over the number of clusters, $$p(K|D)$$
 
 $$
-K^∗ = argmax_K\space p(K|D)
+K^{∗} = argmax_K\space p(K|D)
 $$
 
 ### Estimating which cluster each point belongs to

@@ -58,7 +58,7 @@ with $$P \in S_{++}^n$$ i.e, symmetric positive definite
 
 **Norm : ** A function $$\lVert \space \cdot \space \rVert$$ that satisfies
 
-* $$\lVert x \rVert \ge 0; \lVert x \rVert = 0 \space \iff  \space x = 0$$
+* $$\lVert x \rVert \ge 0; \lVert x \rVert = 0 <=> x = 0$$
 * $$\lVert tx \rVert = |t|\lVert x \rVert; t \in 	\mathbb{R}$$
 * $$\lVert x + y \rVert \le \lVert x \rVert + \lVert y \rVert$$
 
@@ -84,7 +84,7 @@ Polyhedra is an intersection of finate number of halfspaces and hyperplanes
 * $$S_n$$ is set of symmetric n X n matrices
 * $$S_+^n = \{X \in S_n\ \space | \space X \succeq 0 \}$$
 
-$$X \in S_n^+ \iff z^TXz \ge 0 \space \forall \space z$$
+$$X \in S_n^+ <=> z^TXz \ge 0 \space \forall \space z$$
 
 $$S_n^+$$ is a convex cone
 
@@ -100,10 +100,10 @@ Intersection of any number of convex sets is convex
 Suppose $$f : \mathbb{R}^n \to \mathbb{R}^m$$ is affine $$(f(x) = Ax + b); A \in \mathbb{R}^{mXn}, B \in \mathbb{R}^m$$
 
 Convex set under affine function $$f$$ is convex
-$$S \subseteq \mathbb{R}^n$$ convex $$\iff f(S) = \{f(x) | x \in S \}$$ is convex
+$$S \subseteq \mathbb{R}^n$$ convex $$<=> f(S) = \{f(x) | x \in S \}$$ is convex
 
 Convex set under inverse of affine function is also convex
-$$S \subseteq \mathbb{R}^m$$ convex $$\iff f^{-1}(S) = \{f^{-1}(x) | x \in S \}$$ is convex
+$$S \subseteq \mathbb{R}^m$$ convex $$<=> f^{-1}(S) = \{f^{-1}(x) | x \in S \}$$ is convex
 
 ### Perspective and linear-fractional function
 

@@ -89,3 +89,21 @@ $$X \in S_n^+ \iff z^TXz \ge 0 \space \forall \space z$$
 $$S_n^+$$ is a convex cone
 
 * $$S_+^n = \{X \in S_n\ \space | \space X \succ 0 \}$$
+
+
+### Intersection
+
+Intersection of any number of convex sets is convex
+
+### Affine function
+
+Suppose $$f : \mathbb{R}^n \to \mathbb{R}^m$$ is affine $$(f(x) = Ax + b); A \in \mathbb{R}^{mXn}, B \in \mathbb{R}^m$$
+
+Convex set under affine function $$f$$ is convex
+$$S \subseteq \mathbb{R}^n$$ convex $$\iff f(S) = \{f(x) | x \in S \}$$ is convex
+
+Convex set under inverse of affine function is also convex
+$$S \subseteq \mathbb{R}^m$$ convex $$\iff f^{-1}(S) = \{f^{-1}(x) | x \in S \}$$ is convex
+
+### Perspective and linear-fractional function
+

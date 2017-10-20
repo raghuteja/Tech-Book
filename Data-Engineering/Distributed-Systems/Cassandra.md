@@ -32,3 +32,16 @@ Column Family corresponds to table in RDBMS
 
 Cassandra has a concept of super column family which allows nesting
 
+### Architecture
+
+**System Key space : ** Cassandra has internal key space called system key space to store metadata information, similar to information schema in mysql
+
+Cassandra is Peer-to-Peer architecture unlike master slave architecture
+
+#### Commit Log
+
+When a write request enters to Cassandra system first it will be written into commit log
+
+Once it is written in commit log Cassandra will write into **MemTables** (In memory resident datastructure)
+
+Once the memtable reaches threshold the contents of memtable will be flushed into disk

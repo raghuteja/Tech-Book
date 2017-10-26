@@ -61,7 +61,23 @@ Here straight away answer will be assign a separate node for every brach at firs
 
 Other solution is shard further and keep shard size as small small chunks and assign multiple shards such that it fits in a machine
 
+![](/assets/Search-Typeahead-Trie.svg)
+
+As mentioned in above figure we store the top level nodes in one machines and bottom nodes i.e, shards we will store multiple shards in each machines (because shards data size might not be equally distributed)
+
+**Read request flow : ** Read request enters at top level and inside top level of every node we will store machine id instead of pointer, Then we will send query to that machine
+
+**Write request flow : ** When update request comes it will go similar to read request and update frequency, then we need to check parents if the new updated frequency matches with any of top 5 results in parents, So child will have parent pointer if it is in the same machine or parent machine id if its in other machine
+
+
 To make database more available we might need to replicate the data
+
+* Master-Slave replication
+* Master-Master replication
+
+**Master-Slave replication : ** Writes will go to master and log in change log files and read can go to both master and slave, Slave data will gets updated through change log files. Problem with this solution is write request is single point failure
+
+**Master-Master replication : ** Writes can go through any of the machines but we need to eventually sync up all the replicated nodes which can be done through sending update request to all the other replicas or by anti-entropy using merkle trees, Reads also can go to any machine as we need only evantual consistency
 
 ### Credits
 

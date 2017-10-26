@@ -13,6 +13,8 @@ Assume we need to suggest top 5 typeahead suggestions
 
 We will be picking right suggestions based on priority/frequency
 
+We are currently considering only "Autosuggest without accounting spelling mistakes" and "Non-Personalized suggestions"
+
 
 ### Design Goals
 

@@ -43,3 +43,18 @@ This way if other threads want to do operations on other buckets they can do it 
 
 In java concurrent hashmap does the same thing where as hashtable locks the entire map
 
+#### GetRandomKey in O(1) operation
+
+GetRandomKey can be achieved by storing keys in an array, when this function is called we will generate random number between 0 and array length and return the corresponding key
+
+* Insert - O(1)
+* Update - O(1)
+* Fetch - O(1)
+* GetRandomKey - O(1)
+* Delete - O(N)
+
+As you see above deletion operation is O(N). This is because deleting element in from array is O(N), we can optimize this by swapping the deleted element with last element in array and decreasing the size of array by 1 as the order of keys in array is not important
+
+For example when inserting 4 with value 10, we need to store <4, (10, 1)> in the map where 1 is the index of the key in the array.
+
+Now all operations are of O(1)

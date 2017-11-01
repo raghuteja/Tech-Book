@@ -59,7 +59,7 @@ If writes are high then it might impact performance of reads also as we might ne
 
 ### Distributed system
 
-Here straight away answer will be assign a separate node for every brach at first level, Problem here is **Load Imbalance**
+Here straight away answer will be assign a separate node for every branch at first level, Problem here is **Load Imbalance**
 
 Other solution is shard further and keep shard size as small small chunks and assign multiple shards such that it fits in a machine
 

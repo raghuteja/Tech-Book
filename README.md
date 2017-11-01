@@ -4,6 +4,8 @@ This repo/book is not intended to teach anyone, This is just the log of technica
 
 This is intended for my future reference
 
+If you find any issues/suggestions please let us know : [addict.technical@gmail.com](mailto:addict.technical@gmail.com)
+
 ```arbor
 {
   "nodes": {

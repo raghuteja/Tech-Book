@@ -18,9 +18,9 @@ We are currently considering only "Autosuggest without accounting spelling mista
 
 ### Design Goals
 
-Latency : Very important
-Consistency : Not really
-Availability : important
+* Latency : Very important
+* Consistency : Not really
+* Availability : important
 
 ### API's for client
 

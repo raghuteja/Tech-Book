@@ -15,12 +15,16 @@ If the data size does not fit in single machine, we might need to scale horizont
 
 ### Distributed KV Store
 
-Main problem here is how to partition data into multiple machines, Sharding
+Main problem here is how to partition data into multiple machines, Sharding. Then system is highly prone to network failures.
 
-#### System Availability
+When dealing with the possibility of network failures, strong consistency and high data availability cannot be achieved simultaneously ([CAP Theorem](/Data-Engineering/Distributed-Systems/CAP-Theorem.md))
 
-One main concern in distributed systems are nodes going down and requests will get dropped.
+Availability can be increased by using optimistic replication techniques, where changes are allowed to propagate to replicas in the background, and concurrent, disconnected work is tolerated
 
-The most common solution for this is replica
+The challenge with this approach is that it can lead to conflicting changes which must be detected and resolved.
 
-By introducing replica system was more available but we are 
+Challenges involved in this are
+1. When to resolve this (During reads or writes)
+2. Who to resolve this
+
+If we do conflict resolution during writes, writes may be rejected if the data store cannot reach all (or a majority of) the replicas at a given time.

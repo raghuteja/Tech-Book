@@ -6,7 +6,8 @@
 4. Dynamic Programming
 5. Minimum number of comparisons : Tournament Method
 6. Traverse array from right hand side
-7. Change array elements if needed
+7. Change array elements if needed (Find duplicate element(s))
+8. Bucketizing the array, Here is an [example](https://www.interviewbit.com/problems/maximum-consecutive-gap/)
 
 ### ToDo
 
@@ -18,8 +19,3 @@
    4. Floor of given element  
    5. Ceil of given element
 3. Interpolation search
-4. 
-
-
-
-

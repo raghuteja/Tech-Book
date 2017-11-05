@@ -6,6 +6,18 @@
 str.length();
 ```
 
+**Check if a character is alphanumeric**
+```
+#include <ctype.h>
+isalnum(c);
+```
+
+**Convert a character to upper case**
+```
+#include <ctype.h>
+toupper(c);
+```
+
 **Append a character to String**
 
 ```

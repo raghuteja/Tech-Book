@@ -1,4 +1,4 @@
-# Implementing URL Shortening Service
+# Implementing URL Shortening Service (Tiny URL)
 
 Given a URL, We need to find hash function F that maps URL to a short alias `F(URL) = alias` and satisfies following conditions
 

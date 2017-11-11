@@ -52,7 +52,7 @@ This way the data can be skewed
 
 ##### Hash based partition
 
-Hash the key and store it in corresponding server by using the hash output. This can also leads the data in skewed form i.e, overloaded partitions. Solution to this is [Consistent Hashing](/Design/Consistent-Hashing.md)
+Hash the key and store it in corresponding server by using the hash output. This can also leads the data in skewed form i.e, overloaded partitions. Solution to this is [Consistent Hashing](/Data-Engineering/Distributed-Systems/Consistent-Hashing.md)
 
 #### Distributed key-value stores
 

@@ -16,3 +16,9 @@ Data integrity, ACID guarantees are not there in NoSQL
 * High usage of disk, cpu and memory
 * High hardwares are required
 
+### Types of NoSQL databases
+
+1. Key value stores
+2. Column family
+3. Document
+4. Graph

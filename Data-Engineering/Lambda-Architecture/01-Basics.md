@@ -1,4 +1,4 @@
-# Lambda Architecture (Basics)
+# Basics (Lambda Architecture)
 
 ### What is data system
 

@@ -33,3 +33,11 @@ Querying on huge dataset will take longer time so Lambda Architecture defines a 
 3. The serving layer indexes the batch views so that they can be queried in low-latency, ad-hoc way.
 4. The speed layer compensates for the high latency of updates to the serving layer and deals with recent data only.
 5. Any incoming query can be answered by merging results from batch views and real-time views.
+
+### Design web analytics
+
+Going forward we will try to build a web analytics which will support the following queries
+
+1. Number of page views given a URL and time range
+2. Unique visitors with in a given time range
+3. Bounce Rate : Percentage of people visit the page without visiting any other pages

@@ -24,3 +24,4 @@ Querying on huge dataset will take longer time so Lambda Architecture defines a 
 
 ### Design
 
+![](/assets/lambda-architecture.png)

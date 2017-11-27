@@ -27,4 +27,13 @@ Data should be partitioned in such a way that when we want to process particular
 
 In our case we can store data based on day wise or hour wise
 
-EX : HDFS
+Ex : HDFS
+
+### Computing batch view from master data
+
+Because your master dataset is continually growing, you must have a strategy for updating your batch views when new data becomes available. 
+You could choose a recomputation algorithm, throwing away the old batch views and recomputing functions over the entire master dataset which may not be practically possible all the time. 
+
+**Incremental algorithm** will update the views directly when new data arrives.
+
+Ex : Map-Reduce Paradigm

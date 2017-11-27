@@ -37,3 +37,23 @@ You could choose a recomputation algorithm, throwing away the old batch views an
 **Incremental algorithm** will update the views directly when new data arrives.
 
 Ex : Map-Reduce Paradigm
+
+### Batch views for web analytics queries
+
+#### Page views over time range
+
+A view can be generated per hour basis counts for every URL
+
+To optimize queries for longer time range one can store aggregated counts also over day/month/year
+
+#### Unique visitors over time range
+
+Unique over time range cannot be solved accurately unless you fetch entire data and uniqify them
+
+If we can have some error probability we can generate HyperLogLog for every hour and get unique count over that
+
+To optimize queries for longer time range one can store aggregated HyperLogLog over day/month/year
+
+#### Bounce rate analysis
+
+Similar to page views we just need to maintain bounce count and total count

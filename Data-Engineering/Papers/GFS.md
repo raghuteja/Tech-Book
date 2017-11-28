@@ -32,3 +32,20 @@ period of time.
 * A small file consists of a small number of chunks, perhaps just one.
 * Chunks can become hotspots and this problem can be fixed by increasing replication factor
 
+#### Metadata
+
+Master contains file and chunk namespaces, mapping from files to chunks, All metadata is kept in the master's memory.
+
+Namespaces and file-to-chunkmapping are also kept persistent by logging mutations to an operation log stored on the master's local disk and replicated on remote machines
+
+Master does not store chunklocation information persistently. Instead, it asks each chunkserver about its chunks at master startup and whenever a chunkserver joins the cluster.
+
+**Cons** in storing entire metadata in memory is that the number of chunks and hence the capacity of the whole system is limited by how much memory the master has. Though master store less than 64 bytes of memory for 64 MB block
+
+**Operational Log** contains historical record of critical metadata changes. As it is critial, it will be replicated multiple remote machines and respond to a client operation only after flushing the corresponding log record to disk both locally and remotely.
+
+The master recovers its file system state by replaying the operation log. The master checkpoints its state whenever the log grows beyond a certain size so that it can recover by loading the latest checkpoint from local disk and replaying only the records after that. The checkpoint is in a compact B-tree like form that can be directly mapped into memory and used for namespace lookup without extra parsing. This further speeds up recovery and improves availability
+
+### Credits
+
+1. [GFS](https://research.google.com/archive/gfs.html)

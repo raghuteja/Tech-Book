@@ -10,7 +10,7 @@ Manually free up memory after completion of usage, Here there is a high probabil
 
 Initial approach was reference counting
 
-![](/assets/GC-Memory.png)
+![](/assets/images/GC-Memory.png)
 
 **Live Object** - Reachable (Referenced by someone else)
 **Dead Object** - UnReachable (Unreferenced from any where)

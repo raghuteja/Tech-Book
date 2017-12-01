@@ -24,7 +24,7 @@ It is kind of batch mode processing frameworks, But spark also has streaming fas
 
 ### Spark Architecture
 
-![](/assets/Spark-Cluster-Architecture.png)
+![](/assets/images/Spark-Cluster-Architecture.png)
 
 ### Credits
 

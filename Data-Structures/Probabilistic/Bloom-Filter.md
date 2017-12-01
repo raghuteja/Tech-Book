@@ -13,7 +13,7 @@ structure that is used to test whether an element is a member of a set
 
 Both insertions and membership queries are performed in constant time.
 
-A Bloom filter is a bit vector $$B$$ of $$m$$ bits, with k independent hash functions $$h_1, ..., h_k$$ that map each key in $$U$$ to the set $$0, 1, ..., m − 1$$.
+A Bloom filter is a bit vector $$B$$ of $$m$$ bits, with k independent hash functions $$h_1, ..., h_k$$ that map each key in $$U$$ to the set $$0, 1, ..., m - 1$$.
 
 1. Initially all m bits of B are set to 0.
 2. Insert $$x$$ into Bloom filter, Compute $$h_1(x), ..., h_k(x)$$ and set $$B[h_1(x)] = B[h_2(x)] = ... = B[h_k(x)] = 1$$.
@@ -27,9 +27,9 @@ Probability that one hash do not set a given bit is $$1 - \dfrac{1}{m}$$ where $
 
 Probability that a bit is not set by any of hash functions for a given input is $$\bigg(1 - \dfrac{1}{m}\bigg)^k$$
 
-Probability that a bit is not set after inserting n elements is $$\bigg(1 - \dfrac{1}{m}\bigg)^{kn} = 	\it{e}^{\scriptsize{-\dfrac{kn}{m}}}$$
+Probability that a bit is not set after inserting n elements is $$\bigg(1 - \dfrac{1}{m}\bigg)^{kn} = \textit{e}^{\scriptsize{-\dfrac{kn}{m}}}$$
 
-Probability of false positive means specific set of k bits should be equal to 1 i.e, $$\bigg(1 - \bigg(1 - \dfrac{1}{m}\bigg)^{kn}\bigg)^k = \bigg(1 - \it{e}^{\scriptsize{-\dfrac{kn}{m}}}\bigg)^k$$
+Probability of false positive means specific set of k bits should be equal to 1 i.e, $$\bigg(1 - \bigg(1 - \dfrac{1}{m}\bigg)^{kn}\bigg)^k = \bigg(1 - \textit{e}^{\scriptsize{-\dfrac{kn}{m}}}\bigg)^k$$
 
 #### Number of bits
 

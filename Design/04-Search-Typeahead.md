@@ -63,7 +63,7 @@ Here straight away answer will be assign a separate node for every branch at fir
 
 Other solution is shard further and keep shard size as small small chunks and assign multiple shards such that it fits in a machine
 
-![](/assets/Search-Typeahead-Trie.svg)
+![](/assets/images/Search-Typeahead-Trie.svg)
 
 As mentioned in above figure we store the top level nodes in one machines and bottom nodes i.e, shards we will store multiple shards in each machines (because shards data size might not be equally distributed)
 

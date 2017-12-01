@@ -11,7 +11,7 @@
 
 ### Design
 
-![](/assets/Elevator.png)
+![](/assets/images/Elevator.png)
 
 ### Credits
 

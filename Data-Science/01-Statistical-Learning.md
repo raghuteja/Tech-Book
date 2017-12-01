@@ -69,7 +69,7 @@ Ex: Clustering
 
 Mean squared error $$MSE = 1/n(\textstyle\sum_{i=1}^n (y_i - \hat{f}(x_i))^2)$$
 
-![](/assets/MSE-Flexibility.png)
+![](/assets/images/MSE-Flexibility.png)
 
 The red color in right side of the figure is test MSE and other one is training MSE
 

@@ -24,7 +24,7 @@ Querying on huge dataset will take longer time so Lambda Architecture defines a 
 
 ### Design
 
-![](/assets/lambda-architecture.png)
+![](/assets/images/lambda-architecture.png)
 
 1. All data entering the system is dispatched to both the batch layer and the speed layer for processing.
 2. The batch layer has two functions: 

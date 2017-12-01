@@ -21,7 +21,7 @@ The system will continue to function when network partitions occur i.e, two node
 In distributed computing we have to keep in mind that networks aren't completely reliable
 
 
-![](/assets/CAP_Theorem.png)
+![](/assets/images/CAP_Theorem.png)
 
 
 # Credits

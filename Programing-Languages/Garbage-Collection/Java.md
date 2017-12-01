@@ -12,7 +12,7 @@ Based on observations
 
 So they divided Java VM into **Young Generation** and **Old Generation**(Tenured)
 
-![](/assets/Java-Heap-Structure.png)
+![](/assets/images/Java-Heap-Structure.png)
 
 #### Eden
 

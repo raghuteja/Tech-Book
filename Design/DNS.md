@@ -19,7 +19,7 @@ DNS architecture is a hierarchical distributed database
 
 The DNS domain namespace, as shown in the following figure, is based on the concept of a tree of named domains.
 
-![](/assets/How-DNS-Works.jpg)
+![](/assets/images/How-DNS-Works.jpg)
 
 #### DNS Database distribution
 

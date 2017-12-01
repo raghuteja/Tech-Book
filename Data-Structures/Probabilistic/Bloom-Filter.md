@@ -31,11 +31,10 @@ Probability that a bit is not set after inserting n elements is $$\bigg(1 - \dfr
 
 Probability of false positive means specific set of k bits should be equal to 1 i.e, $$\bigg(1 - \bigg(1 - \dfrac{1}{m}\bigg)^{kn}\bigg)^k = \bigg(1 - \textit{e}^{\scriptsize{-\dfrac{kn}{m}}}\bigg)^k$$
 
-#### Number of bits
-
-
-
-
 ### Credits
 
 1. [Bloom filters and Hashing](http://people.math.gatech.edu/~randall/AlgsF09/bloomfilters.pdf)
+
+### Read complete paper
+
+{% pdf src="/assets/papers/BloomFilter.pdf", width="100%", height="850" %}{% endpdf %}

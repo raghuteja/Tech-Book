@@ -21,6 +21,19 @@ A Bloom filter is a bit vector $$B$$ of $$m$$ bits, with k independent hash func
 
 ### Analysis
 
+#### False positive rate probability
+
+Probability that one hash do not set a given bit is $$1 - \dfrac{1}{m}$$ where $$m$$ is number of bits
+
+Probability that a bit is not set by any of hash functions for a given input is $$\bigg(1 - \dfrac{1}{m}\bigg)^k$$
+
+Probability that a bit is not set after inserting n elements is $$\bigg(1 - \dfrac{1}{m}\bigg)^{kn} = 	\it{e}^{\scriptsize{-\dfrac{kn}{m}}}$$
+
+Probability of false positive means specific set of k bits should be equal to 1 i.e, $$\bigg(1 - \bigg(1 - \dfrac{1}{m}\bigg)^{kn}\bigg)^k = \bigg(1 - \it{e}^{\scriptsize{-\dfrac{kn}{m}}}\bigg)^k$$
+
+#### Number of bits
+
+
 
 
 ### Credits

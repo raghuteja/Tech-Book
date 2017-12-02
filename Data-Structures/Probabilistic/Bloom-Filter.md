@@ -49,6 +49,19 @@ derivative is zero when $$k = (m/n)\ln2$$
 
 Compound probability after merging n bloom filters is $$\bigg(1 - \displaystyle\prod_{i=1}^n(1 - p_i)\bigg)$$
 
+### Bloom filter tricks
+
+1. Union of bloom filters of same size
+2. Intersection of bloom filters of same size
+3. Shrink bloom filter size if the number of bits in bloom filter is power of 2, This can be done by ignoring least significant bit after hash
+
+### Counting Bloom filters
+
+Elements cannot be deleted from bloom filters, To avoid this problem, one can introduce the idea of a counting
+Bloom filter.
+In a counting Bloom filter, each entry in the Bloom filter is not a single bit but rather a small counter. When an item is inserted, the corresponding counters are incremented; when an item is deleted, the corresponding counters are decremented.
+
+
 ### Credits
 
 1. [Bloom filters and Hashing](http://people.math.gatech.edu/~randall/AlgsF09/bloomfilters.pdf)

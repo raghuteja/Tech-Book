@@ -38,4 +38,4 @@ Compound probability after merging n bloom filters is $$\bigg(1 - \displaystyle\
 ### Credits
 
 1. [Bloom filters and Hashing](http://people.math.gatech.edu/~randall/AlgsF09/bloomfilters.pdf)
-2. [Complete Paper](/assets/papers/BloomFilter.pdf)
+2. <a href="/assets/papers/BloomFilter.pdf" target="_blank">Complete Paper</a>

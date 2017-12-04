@@ -16,7 +16,7 @@ Three way merges similar to subversion, Client sends data to server and server p
     
 #### Differential Synchronization
 
-It is based on diff and patch operations
+It is based on diff and patch operations, It is convergent solution
     
 ### Credits
 

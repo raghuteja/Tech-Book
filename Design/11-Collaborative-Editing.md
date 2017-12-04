@@ -17,9 +17,8 @@ Three way merges similar to subversion, Client sends data to server and server p
 #### Differential Synchronization
 
 It is based on diff and patch operations
-
-
     
 ### Credits
 
 1. [Complete credits to Neil Fraser (Author of Differential Synchronization)](https://neil.fraser.name/writing/sync/), Content and images are taken from https://neil.fraser.name/
+2. <a href="/assets/papers/Differential-Synchtonization.pdf" target="_blank">Complete Paper</a>

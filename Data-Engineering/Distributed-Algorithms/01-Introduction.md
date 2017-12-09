@@ -12,3 +12,6 @@ The timing model we consider are
 * Asynchronous model
 * Partially synchronous (timing-based) model
 
+### Credits
+
+1. [Distributed Algorithms by Nancy A. Lynch](https://www.amazon.com/Distributed-Algorithms-Kaufmann-Management-Systems/dp/1558603484)

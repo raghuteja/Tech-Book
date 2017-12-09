@@ -1,2 +1,0 @@
-# Introduction of Distributed Algorithms
-

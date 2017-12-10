@@ -118,3 +118,15 @@ if the messages from i-1 or i+1 is (u, in, 1) then
     send+ := (u, out, 2**phase)
     send- := (u, out, 2**phase)
 ```
+
+#### Complexity analysis
+
+Check out the book provided below
+
+#### Correctness
+
+* A process with UID $$u$$ only outputs leader when a message started at $$u$$ travels the whole ring and arrives back at $$u$$.
+* At most one process can become leader: the one with the maximum UID.
+
+
+### 

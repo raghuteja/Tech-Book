@@ -20,6 +20,21 @@ YARN (Yet Another Resource Negotiator) treats each server as collection of conta
 * Per server - Node manager
 * Per application - Application master
 
-
-
 ![](/assets/images/YARN-Architecture.gif)
+
+### Failures
+
+* Server failure
+    * Node manager heart beats to resource manager, If server fails RM lets all affected AM's know and AM's take action
+    * Node manager keeps track of each task running at its server, If task fails NM will restart it
+    * AM heart beats to RM, On failure RM restarts AM which then sync up with currently running tasks
+    
+* Resource Manager failure : Use old checkpoints and brings up secondary RM
+
+### Slow servers
+
+Keeps track of progress of each task and create backup of straggler task and consider it done when first replica of task is completed, Also called **speculative execution**
+
+### Locality
+
+MR task tries to schedule task on machine that contain replica of corresponding input data

@@ -12,3 +12,14 @@ MapReduce is a programming model and an associated implementation for processing
 
 ### YARN Scheduler
 
+YARN (Yet Another Resource Negotiator) treats each server as collection of containers (CPU + Memory)
+
+**Components**
+
+* Global - Resource manager
+* Per server - Node manager
+* Per application - Application master
+
+
+
+![](/assets/images/YARN-Architecture.gif)

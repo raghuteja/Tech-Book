@@ -165,12 +165,11 @@
                 "color": "#b2b19d",
                 "width": 2
             },
-
             "Cassandra": {
                 "color": "#b2b19d",
                 "width": 2
             },
-            "Voldemort: {
+            "Voldemort": {
                 "color": "#b2b19d",
                 "width": 2
             }
@@ -180,12 +179,11 @@
                 "color": "#b2b19d",
                 "width": 2
             },
-
             "HBase": {
                 "color": "#b2b19d",
                 "width": 2
             },
-            "Hypertable: {
+            "Hypertable": {
                 "color": "#b2b19d",
                 "width": 2
             }
@@ -195,7 +193,6 @@
                 "color": "#b2b19d",
                 "width": 2
             },
-
             "MongoDB": {
                 "color": "#b2b19d",
                 "width": 2
@@ -206,7 +203,6 @@
                 "color": "#b2b19d",
                 "width": 2
             },
-
             "Titan": {
                 "color": "#b2b19d",
                 "width": 2
@@ -217,16 +213,15 @@
                 "color": "#b2b19d",
                 "width": 2
             },
-
             "Spanner": {
                 "color": "#b2b19d",
                 "width": 2
             },
-            "MESA: {
+            "MESA": {
                 "color": "#b2b19d",
                 "width": 2
             },
-            "CockroachDB: {
+            "CockroachDB": {
                 "color": "#b2b19d",
                 "width": 2
             }

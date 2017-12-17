@@ -104,6 +104,10 @@
             "File Systems": {
                 "color": "#b2b19d",
                 "width": 2
+            },
+            "Data Stores": {
+                "color": "#b2b19d",
+                "width": 2
             }
         },
         "Architectures": {

@@ -7,8 +7,8 @@ maroon_node = {'color': 'maroon'}
 
 edge_data = {'color': '#b2b19d', 'width': 2}
 
-params_height = 600
-params_width = 300
+params_height = 800
+params_width = 400
 params_padding_data = [160,160,160,160]
 
 output = {}
@@ -50,6 +50,23 @@ content_megastore = 'Megastore'
 content_spanner = 'Spanner'
 content_mesa = 'MESA'
 content_cockroachdb = 'CockroachDB'
+content_resource_managers = 'Resource Managers'
+content_yarn = 'Yarn'
+content_mesos = 'Mesos'
+content_coordination = 'Coordination'
+content_paxos = 'Paxos'
+content_chubby = 'Chubby'
+content_zookeeper = 'Zookeeper'
+content_raft = 'Raft'
+content_messaging = 'Messaging'
+content_kafka = 'Kafka'
+content_flume = 'Flume'
+content_sqoop = 'Sqoop'
+content_computational_frameworks = 'Computational Frameworks'
+content_spark = 'Spark'
+content_flink = 'Flink'
+content_map_reduce = 'Map Reduce'
+content_storm = 'Storm'
 
 nodes = {}
 nodes[content_data] = black_node
@@ -82,6 +99,23 @@ nodes[content_megastore] = red_node
 nodes[content_spanner] = red_node
 nodes[content_mesa] = red_node
 nodes[content_cockroachdb] = red_node
+nodes[content_resource_managers] = chocolate_node
+nodes[content_yarn] = red_node
+nodes[content_mesos] = red_node
+nodes[content_coordination] = chocolate_node
+nodes[content_paxos] = red_node
+nodes[content_chubby] = red_node
+nodes[content_zookeeper] = red_node
+nodes[content_raft] = red_node
+nodes[content_messaging] = chocolate_node
+nodes[content_kafka] = red_node
+nodes[content_flume] = red_node
+nodes[content_sqoop] = red_node
+nodes[content_computational_frameworks] = chocolate_node
+nodes[content_spark] = red_node
+nodes[content_flink] = red_node
+nodes[content_map_reduce] = red_node
+nodes[content_storm] = red_node
 
 output[content_nodes] = nodes
 
@@ -91,6 +125,10 @@ edge_data_node = {}
 edge_data_node[content_architectures] = edge_data
 edge_data_node[content_file_systems] = edge_data
 edge_data_node[content_data_stores] = edge_data
+edge_data_node[content_resource_managers] = edge_data
+edge_data_node[content_coordination] = edge_data
+edge_data_node[content_messaging] = edge_data
+edge_data_node[content_computational_frameworks] = edge_data
 edges[content_data] = edge_data_node
 
 edge_architecture_node = {}
@@ -142,6 +180,31 @@ edge_acid_node[content_spanner] = edge_data
 edge_acid_node[content_mesa] = edge_data
 edge_acid_node[content_cockroachdb] = edge_data
 edges[content_acid] = edge_acid_node
+
+edges_resource_managers_node = {}
+edges_resource_managers_node[content_yarn] = edge_data
+edges_resource_managers_node[content_mesos] = edge_data
+edges[content_resource_managers] = edges_resource_managers_node
+
+edges_coordination_node = {}
+edges_coordination_node[content_paxos] = edge_data
+edges_coordination_node[content_chubby] = edge_data
+edges_coordination_node[content_zookeeper] = edge_data
+edges_coordination_node[content_raft] = edge_data
+edges[content_coordination] = edges_coordination_node
+
+edges_messaging_node = {}
+edges_messaging_node[content_kafka] = edge_data
+edges_messaging_node[content_flume] = edge_data
+edges_messaging_node[content_sqoop] = edge_data
+edges[content_messaging] = edges_messaging_node
+
+edges_computational_frameworks_node = {}
+edges_computational_frameworks_node[content_spark] = edge_data
+edges_computational_frameworks_node[content_flink] = edge_data
+edges_computational_frameworks_node[content_map_reduce] = edge_data
+edges_computational_frameworks_node[content_storm] = edge_data
+edges[content_computational_frameworks] = edges_computational_frameworks_node
 
 output[content_edges] = edges
 

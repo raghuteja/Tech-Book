@@ -5,7 +5,10 @@
             "color": "black"
         },
         "Architectures": {
-            "color": "yellow"
+            "color": "brown"
+        },
+        "File Systems": {
+            "color": "brown"
         },
         "Lambda": {
             "color": "red"
@@ -17,6 +20,18 @@
             "color": "red"
         },
         "SummingBird": {
+            "color": "red"
+        },
+        "GFS": {
+            "color": "red"
+        },
+        "HDFS": {
+            "color": "red"
+        },
+        "Ceph File System": {
+            "color": "red"
+        },
+        "Alluxio, Inc": {
             "color": "red"
         }
     },
@@ -37,6 +52,24 @@
                 "width": 2
             },
             "SummingBird": {
+                "color": "#b2b19d",
+                "width": 2
+            }            
+        },
+        "File Systems": {
+            "GFS": {
+                "color": "#b2b19d",
+                "width": 2
+            },
+            "HDFS": {
+                "color": "#b2b19d",
+                "width": 2
+            },
+            "Ceph File System": {
+                "color": "#b2b19d",
+                "width": 2
+            },
+            "Alluxio, Inc": {
                 "color": "#b2b19d",
                 "width": 2
             }            

@@ -62,6 +62,12 @@ To overcome this problem one can use the concept of virtual nodes, A Virtual nod
 2. When a new node is added to system, Load distribution will be even
 3. Number of virtual nodes that a node handles can be decided based on node capacity (Heterogenity)
 
+#### Drawbacks of using virtual nodes
+
+During replication if we are using virtual nodes, It is possible that replicated data might go into the same physical node
+
+To address this issue one can maintain preference list (List of nodes that are responsible for storing a particular key). This list can ensure that a key is stored in `N` distinct physical nodes
+
 ### Uses
 
 * Used in distributed key value store

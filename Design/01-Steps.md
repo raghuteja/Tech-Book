@@ -8,4 +8,4 @@
 
 ### Questions
 
-* [Design HashMap and Concurrent HashMap](/Design/02-Design-HashMap.md)
+* [Design HashMap and Concurrent HashMap](/Design/02-HashMap.md)

@@ -50,6 +50,18 @@ Maintain a binary search tree whose keys are machine values
 2. To insert a machine, Find the successor and get items from that machine
 3. To delete a machine, Find the successor and push items to that machine
 
+### Problems
+
+**Heterogenity** : Suppose if capabilities of servers are different, then load distribution may not be uniform. This is because consistent hashing treats every node uniformly
+
+To overcome this problem one can use the concept of virtual nodes, A Virtual node is looks like single node in the system, but each node can be responsible for more than one virtual node. When a node is added to the system, it is assigned multiple positions in the ring
+
+#### Advantages of using virtual nodes
+
+1. If the node becomes unavailable its load is evenly handled by other nodes in the system
+2. When a new node is added to system, Load distribution will be even
+3. Number of virtual nodes that a node handles can be decided based on node capacity (Heterogenity)
+
 ### Uses
 
 * Used in distributed key value store

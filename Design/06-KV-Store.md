@@ -44,3 +44,8 @@ Should support `get(key)` and `put(key, value)` operations
 #### Partitioning
 
 [Consistent Hashing](/Data-Engineering/Distributed-Systems/Consistent-Hashing.md)
+
+#### Replication
+
+Similar to mentioned in [Consistent Hashing](/Data-Engineering/Distributed-Systems/Consistent-Hashing.md)
+

@@ -22,3 +22,7 @@ To answer the above questions we need to focus on three concerns that are import
 1. Reliability
 2. Scalability
 3. Maintainability
+
+### Credits
+
+1. [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.in/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/9352135245/ref=tmm_pap_swatch_0)

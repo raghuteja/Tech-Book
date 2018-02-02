@@ -77,6 +77,7 @@ def sort_dir_file(listdir, dire):
             list_of_dir.append(filename)
         else:
             list_of_file.append(filename)
+    list_of_file.sort()
     for dire in list_of_dir:
         list_of_file.append(dire)
     return list_of_file

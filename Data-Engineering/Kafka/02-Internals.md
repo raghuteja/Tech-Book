@@ -2,13 +2,15 @@
 
 Internally each partition in kafka is furhter split into segments. When Kafka writes to a partition, it internally writes to a active segment. If the segment's size limit is reached, a new segment is opened and that becomes the new active segment.
 
+For better performance, Kafka flushes the segment files to disk only after a configurable number of messages have been published or a certain amount of time has elapsed. A message is only exposed to the consumers after it is flushed.
+
 ### Segments
 
 Segments are named by their base offset. The base offset of a segment is an offset greater than offsets in previous segments and less than or equal to offsets in that segment.
 
 On disk, a partition is a directory and each segment is an index file and a log file. Messages are stored in log files. Each message is its value, offset, timestamp, key, message size, compression codec, checksum, and version of the message format.
 
-The data format on disk is exactly the same as what the broker receives from the producer over the network and sends to its consumers. This allows Kafka to efficiently transfer data with zero copy.
+The data format on disk is exactly the same as what the broker receives from the producer over the network and sends to its consumers. This allows Kafka to efficiently transfer data with [zero copy](/General/Zero-Copy.md).
 
 Every segment of a log (the files \*.log) has it's corresponding index (the files \*.index) with the same name as they represent the base offset.
 
@@ -20,6 +22,10 @@ Size of the .index file is configuration parameter segment.index.bytes, which is
 
 Kafka wraps compressed messages together
 Producers sending compressed messages will compress the batch together and send it as the payload of a wrapped message.
+
+### Efficiency
+
+Kafka rely on the underlying file system page cache. It has the main benefit of avoiding double buffering, messages are only cached in the page cache.
 
 ### Credits
 

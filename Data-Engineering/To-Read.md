@@ -4,3 +4,4 @@
 2. [Lambda Architecture](https://www.oreilly.com/ideas/questioning-the-lambda-architecture)
 3. HBase
 4. [No-SQL](https://www.youtube.com/watch?v=qI_g07C_Q5I)
+5. [Transactions across datacenters](https://www.youtube.com/watch?v=srOgpXECblk)

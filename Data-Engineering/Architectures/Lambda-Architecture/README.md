@@ -25,6 +25,10 @@ Lets build a simple application which tracks the number of pageviews for any URL
 
 **Solution : ** Lambda Architecture
 
+### What is Lambda Architecture
+
+Lambda architecture is a data-processing architecture designed to handle massive quantities of data by taking advantage of both batch and stream-processing methods.
+
 ### Complete Credits
 
 1. [Big Data: Principles and best practices of scalable realtime data systems](https://www.amazon.in/Big-Data-Principles-Practices-Real-Time/dp/9351198065)

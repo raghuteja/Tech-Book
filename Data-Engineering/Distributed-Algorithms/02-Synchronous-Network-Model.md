@@ -62,7 +62,7 @@ input variables
     * $$C_i$$ state assignment after round $$i$$
     * $$M_i$$ message assignment, messages sent in round $$i$$
     * $$N_i$$ message assignment, messages received in round $$i$$
-    * $$M_i != N_i$$ if there is message loss
+    * $$M_i \ne N_i$$ if there is message loss
 * Executions $$e$$ and $$e^{'}$$ are indistinguishable to process $$i$$, denoted $$e \stackrel{i}{\cong} e^{'}$$ if $$i$$ has the same sequence of states, outgoing and incoming messages in $$e$$ and $$e^{'}$$
 * Executions can also be said to be indistinguishable to process $$i$$ up to $$r$$ rounds
 

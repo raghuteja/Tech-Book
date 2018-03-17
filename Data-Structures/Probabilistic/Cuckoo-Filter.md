@@ -74,4 +74,4 @@ return False
 ### Credits
 
 1. [Cuckoo Filter: Practically Better Than Bloom](https://www.cs.cmu.edu/~dga/papers/cuckoo-conext2014.pdf)
-2. 
+2. <a href="/assets/papers/CuckooFilter.pdf" target="_blank">Complete Paper</a>

@@ -55,11 +55,13 @@ Compound probability after merging n bloom filters is $$\bigg(1 - \displaystyle\
 2. Intersection of bloom filters of same size
 3. Shrink bloom filter size if the number of bits in bloom filter is power of 2, This can be done by ignoring least significant bit after hash
 
+### Limitations
+
+A limitation of standard Bloom filters is that one cannot remove existing items without rebuilding the entire filter (or possibly introducing generally less desirable false negatives).
+
 ### Counting Bloom filters
 
-Elements cannot be deleted from bloom filters, To avoid this problem, one can introduce the idea of a counting
-Bloom filter.
-In a counting Bloom filter, each entry in the Bloom filter is not a single bit but rather a small counter. When an item is inserted, the corresponding counters are incremented; when an item is deleted, the corresponding counters are decremented.
+In a counting Bloom filter, each entry in the Bloom filter is not a single bit but rather a small counter. When an item is inserted, the corresponding counters are incremented; when an item is deleted, the corresponding counters are decremented. But they generally use 3–4x space to retain the same false positive rate as a space-optimized Bloom filter.
 
 
 ### Credits

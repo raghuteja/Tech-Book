@@ -1,3 +1,9 @@
+### General Approach
+
+1. Check if the given problem can be converted to graph problem
+2. Check if it can be solved by using Greedy
+
+
 ### Approach for arrays
 
 1. Sorting

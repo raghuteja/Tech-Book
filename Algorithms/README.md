@@ -16,6 +16,10 @@
 8. Bucketizing the array, Here is an [example](https://www.interviewbit.com/problems/maximum-consecutive-gap/)
 9. If we want to find a solution, check if we can binary search over a range, i.e, search for an answer in the range, Here is an [example](https://www.interviewbit.com/problems/matrix-median/)
 
+### Approach for DP
+
+1. Subset Bitmasking
+
 ### ToDo
 
 1. Implementation of Heap

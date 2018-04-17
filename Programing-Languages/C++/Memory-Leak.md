@@ -27,3 +27,8 @@ void f(int n)
   free(array);
 }
 ```
+
+
+### Credits
+
+1. [Wikipedia](https://en.wikipedia.org/wiki/Memory_leak)

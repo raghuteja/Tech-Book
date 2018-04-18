@@ -14,3 +14,13 @@ Maintain a boolean 2D matrix and store if sub string from i to j is palindrome o
 
 **Time Complexity :** $$O(N^2)$$
 **Space Complexity :** $$O(N^2)$$
+
+
+### More Optimized Solution
+
+Idea is to check odd length and even length separately
+Fix the center and expand both the sides to get largest palindrome
+
+**Time Complexity :** $$O(N^2)$$
+**Space Complexity :** $$O(1)$$
+

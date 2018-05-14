@@ -22,6 +22,15 @@ Initial approach was reference counting
 **Live Object** - Reachable (Referenced by someone else)
 **Dead Object** - UnReachable (Unreferenced from any where)
 
+### Properties of Garbage Collector
+
+Garbage collector should operate efficiently without introducing long pauses during which the application is not running
+
+- If heap size is small, Collection will be fast, but heap will get filled fast
+- If heap size is big, heap will get filled slow, but collection will take longer time
+
+Another important characterstic is **Fragmentation**
+
 ### Steps
 
 **Mark**

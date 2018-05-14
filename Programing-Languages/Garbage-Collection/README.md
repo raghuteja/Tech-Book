@@ -4,9 +4,16 @@ Garbage collection (GC) is a form of automatic memory management.
 
 ### Manual Memory Management
 
-Manually free up memory after completion of usage, Here there is a high probability of memory leak
+Manually free up memory after completion of usage, Here there is a chance of memory leak
+
+#### Problems with this approach
+
+* **Dangling references**: It is possible to deallocate the space used by an object to which some other object still has a reference.
+* **Space Leaks**: This occurs when memory is allocated and no longer referenced but is not released.
 
 ### Automated Memory Management
+
+Automated Memory Management(Garbage Collection) solves both the problems mentioned in Manual memory management
 
 Initial approach was reference counting
 

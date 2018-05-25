@@ -4,18 +4,16 @@ House Price prediction: Using linear regression we can plot a straight line, As 
 
 {% graph %}
     {
-        "title":"cos(2*PI*x/2)*(1+0.5cos(2*PI*x/100))",     
+        "title":"House Price Prediction",     
         "grid":true,
         "xAxis": {
-            "label":"Sample",
-            "domain": [0,300]
+            "label":"Size of House"
         },
         "yAxis": {
-            "label":"Amplitude",
-            "domain": [-1.5,1.5]
+            "label":"Price"
         },
         "data": [
-            { "fn": "cos(2*PI*x/2)*(1+0.5cos(2*PI*x/100))"},         
+            { "fn": "x=y"},         
             { "fn": "(1+0.5cos(2*PI*x/100))"}
         ]
     }

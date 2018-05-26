@@ -20,4 +20,4 @@ Each processor is doing exactly one of three things at any given moment
 
 1. In user-space, executing user code in a process
 2. In kernel-space, in process context, executing on behalf of a specific process
-3. In kernel-space, in interrupt context, not associated with a process, handling aninterrupt
+3. In kernel-space, in interrupt context, not associated with a process, handling an interrupt

@@ -16,3 +16,4 @@ The above function RELU(Rectified Linear Unit) is used very frequently in neural
 A larger neural network can be formed by taking many of the single neurons and stacking them together
 
 ![](/assets/images/Large-Neural-Network.jpeg)
+

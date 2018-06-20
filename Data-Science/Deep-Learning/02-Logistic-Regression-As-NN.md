@@ -50,7 +50,7 @@ $$z = (\Sigma w_ix_i) + b$$
 $$a = \sigma(z)$$
 $$L(a, y) = -(y \space log(a) + (1-y)log(1-a))$$
 
-Derivatives:
+**Derivatives:**
 
 $$\dfrac{\partial L}{\partial a} = \partial a = \dfrac{1-y}{1-a} - \dfrac{y}{a}$$
 
@@ -62,5 +62,15 @@ $$\partial b = \partial z$$
 
 So final values for $$w_i := w_i - \alpha \partial w_i$$
 
-The above is for one training example, We need to do the same process for m training examples
+The above is for one training example, We need to do the same process for m training examples.
+
+Instead of using loops we can use matrix operations to solve it efficiently, Here are the operations we need to make
+
+$$Z = w^TX + b => np.dot(w^T, X) + b$$
+$$A = \sigma(Z)$$
+$$dZ = A - Y$$
+$$dw = \dfrac{1}{m}X(dZ)^T$$
+$$db = \dfrac{1}{m} np.sum(dZ)$$
+$$w := w - \alpha dw$$
+$$b := b - \alpha db$$
 

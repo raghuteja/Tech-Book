@@ -35,3 +35,10 @@ Loss function is for single training example
 **Cost Function : **
 
 $$J(w, b) = \frac{1}{m}(\displaystyle\sum_{i=1}^nL(\hat{y}^{(i)}, y^{(i)}))$$
+
+#### Gradient Descent
+
+$$w := w - \alpha \dfrac{\partial J(w, b)}{\partial w}$$
+$$b:= b - \alpha \dfrac{\partial J(w, b)}{\partial b}$$
+
+Here $$\alpha$$ denotes learning rate

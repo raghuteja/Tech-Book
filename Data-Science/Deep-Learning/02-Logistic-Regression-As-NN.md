@@ -42,3 +42,25 @@ $$w := w - \alpha \dfrac{\partial J(w, b)}{\partial w}$$
 $$b:= b - \alpha \dfrac{\partial J(w, b)}{\partial b}$$
 
 Here $$\alpha$$ denotes learning rate
+
+
+Given $$x, y$$
+
+$$z = (\Sigma w_ix_i) + b$$
+$$a = \sigma(z)$$
+$$L(a, y) = -(y \space log(a) + (1-y)log(1-a))$$
+
+Derivatives:
+
+$$\dfrac{\partial L}{\partial a} = \partial a = \dfrac{1-y}{1-a} - \dfrac{y}{a}$$
+
+$$\dfrac{\partial L}{\partial z} = \partial z = a - y$$
+
+$$\dfrac{\partial L}{\partial w_i} = \partial w_i = x_i \partial z$$
+
+$$\partial b = \partial z$$
+
+So final values for $$w_i := w_i - \alpha \partial w_i$$
+
+The above is for one training example, We need to do the same process for m training examples
+

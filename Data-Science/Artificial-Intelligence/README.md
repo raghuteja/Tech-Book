@@ -36,3 +36,14 @@ The above cycle is known as perception action cycle
 | The environment has no objective that would "go against" what you're trying to accomplish | Environment will oppose what you're trying to do |
 | Ex: weather | Ex: Competitive Games |
 
+
+### AI and Uncertainty
+
+AI as a technique of uncertainty management in computer software
+
+**Reasons of uncertainty can be **
+* Sensor limit
+* Adversaries
+* Stochastic
+* Laziness
+* Ignorance

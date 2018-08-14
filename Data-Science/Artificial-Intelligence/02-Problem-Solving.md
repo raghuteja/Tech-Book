@@ -41,3 +41,12 @@ h(state) signifies estimated distance to goal
 A* finds lowest cost path if h(s) < true cost
 
 Heuristic function is admissible if h(s) less than equal to true cost, rather than necessarily being strictly smaller than the true cost
+
+
+### Problem works only in
+
+* Fully observable
+* Known
+* Discrete
+* Deterministic
+* Static

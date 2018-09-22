@@ -1,6 +1,6 @@
 # AI : Probability
 
-**Complementary : ** $$P(A) = p \implies P(\neg A) = 1-p$$
+**Complementary : ** $$P(A) = p => P(\neg A) = 1-p$$
 **Independence : ** $$X \bot Y : P(X, Y) = P(X)P(Y)$$
 
 **Total Probability Theorem/Dependence : **

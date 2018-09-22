@@ -30,3 +30,8 @@
    4. Floor of given element  
    5. Ceil of given element
 3. Interpolation search
+
+### Surprisingly interesting questions
+
+1. Find the median of a very big array of integer. Only iterator of array is given. [[Solution](https://aonecode.com/aplusplus/interviewctrl/getInterview/8655457060582043647)]
+2. Give an array A of n integers where 1 <= a[i] <= K. Find out the length of the shortest sequence that can be constructed out of numbers 1, 2, .. k that is NOT a subsequence of A. [[Solution](https://aonecode.com/aplusplus/interviewctrl/getInterview/8655457060582043647)]
